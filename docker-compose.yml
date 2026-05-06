@@ -1,0 +1,82 @@
+version: "3.8"
+
+services:
+  langflow:
+    image: langflowai/langflow:latest
+    container_name: langflow
+    ports:
+      - "7860:7860"
+    environment:
+      - LANGFLOW_DATABASE_URL=sqlite:////data/langflow.db
+      - LANGFLOW_CONFIG_DIR=/data
+      - LANGFLOW_SUPERUSER=admin
+      - LANGFLOW_SUPERUSER_PASSWORD=${LANGFLOW_SUPERUSER_PASSWORD:-admin}
+      - LANGFLOW_AUTO_LOGIN=true
+      - LANGFLOW_LOAD_FLOWS_PATH=/app/flows
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    volumes:
+      - ./data:/data
+      - ./flows:/app/flows
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7860/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 30s
+    networks:
+      - curso-langflow-net
+
+  langflow-init:
+    image: python:3.11-alpine
+    container_name: langflow-init
+    restart: "no"
+    depends_on:
+      langflow:
+        condition: service_healthy
+    environment:
+      - LANGFLOW_URL=http://langflow:7860
+      - LANGFLOW_SUPERUSER=admin
+      - LANGFLOW_SUPERUSER_PASSWORD=${LANGFLOW_SUPERUSER_PASSWORD:-admin}
+    volumes:
+      - ./scripts:/scripts
+      - langflow-config:/config
+    command: >
+      sh -c "pip install requests --quiet --no-cache-dir &&
+             python /scripts/create_api_key.py"
+    networks:
+      - curso-langflow-net
+
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile.jupyter
+    image: curso_jupyter-lab
+    container_name: jupyter-lab
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - GRANT_SUDO=yes
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - LANGFLOW_URL=http://langflow:7860
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./docs:/home/jovyan/docs:ro
+      - langflow-config:/config:ro
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
+    restart: unless-stopped
+    depends_on:
+      langflow-init:
+        condition: service_completed_successfully
+    networks:
+      - curso-langflow-net
+
+networks:
+  curso-langflow-net:
+    driver: bridge
+
+volumes:
+  langflow-config:

@@ -1,0 +1,22 @@
+FROM jupyter/scipy-notebook:latest
+
+USER root
+
+# Instala pacotes Python necessários (só uma vez)
+RUN pip install --quiet --no-cache-dir \
+    langflow-client \
+    openai \
+    anthropic \
+    langchain \
+    langchain-openai \
+    langchain-anthropic \
+    python-dotenv \
+    requests \
+    pandas \
+    plotly \
+    jupyter-ai
+
+# Volta para o usuário jovyan
+USER jovyan
+
+WORKDIR /home/jovyan
