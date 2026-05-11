@@ -26,7 +26,7 @@ services:
       retries: 12
       start_period: 30s
     networks:
-      - curso-langflow-net
+      - langflow-net
 
   langflow-init:
     image: python:3.11-alpine
@@ -46,13 +46,13 @@ services:
       sh -c "pip install requests --quiet --no-cache-dir &&
              python /scripts/create_api_key.py"
     networks:
-      - curso-langflow-net
+      - langflow-net
 
   jupyter:
     build:
       context: .
       dockerfile: Dockerfile.jupyter
-    image: curso_jupyter-lab
+    image: jupyter-lab
     container_name: jupyter-lab
     ports:
       - "8888:8888"
@@ -72,10 +72,10 @@ services:
       langflow-init:
         condition: service_completed_successfully
     networks:
-      - curso-langflow-net
+      - langflow-net
 
 networks:
-  curso-langflow-net:
+  langflow-net:
     driver: bridge
 
 volumes:
