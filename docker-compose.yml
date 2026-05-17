@@ -13,11 +13,14 @@ services:
       - LANGFLOW_SUPERUSER_PASSWORD=${LANGFLOW_SUPERUSER_PASSWORD:-admin}
       - LANGFLOW_AUTO_LOGIN=true
       - LANGFLOW_LOAD_FLOWS_PATH=/app/flows
+      - LANGFLOW_COMPONENTS_PATH=/app/custom_components
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
     volumes:
       - ./data:/data
       - ./flows:/app/flows
+      - ./notebooks/assets/vector_database/db:/data/vector_database/db
+      - ./components:/app/custom_components
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:7860/health"]
