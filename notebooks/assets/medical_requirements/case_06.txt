@@ -35,40 +35,43 @@ PROCEDIMENTO SOLICITADO
 --------------------------------------------------------------------------------
 Descricao                : TC - ANGIOTOMOGRAFIA CORONARIANA
 Codigo TUSS              : 41001230
-CID-10                   : I20.0
-Descricao CID            : Angina instavel
+CID-10                   : I20.8
+Descricao CID            : Outras formas de angina do peito
 Carater                  : ( ) Eletivo   ( ) Urgencia   ( ) Emergencia
 --------------------------------------------------------------------------------
 
 INDICACAO CLINICA - TEXTO LIVRE DO MEDICO
 --------------------------------------------------------------------------------
-Paciente com quadro de dor precordial típica aos esforços moderados
-há 3 semanas, com irradiação para mandíbula e alívio ao repouso.
-Probabilidade pré-teste calculada de 48,9% segundo critérios de
-Diamond-Forrester revisado (Genders et al., 2011). Solicito
+Paciente com episódios de dor precordial atípica aos esforços moderados
+há 3 semanas, de caráter intermitente, sem irradiação definida e alívio
+espontâneo. Probabilidade pré-teste calculada de 48,9% segundo critérios
+de Diamond-Forrester revisado (Genders et al., 2011). Solicito
 angiotomografia coronariana como método diagnóstico inicial para
-avaliação de doença arterial coronariana.
+avaliação de doença arterial coronariana, em substituição a outros
+métodos diagnósticos disponíveis.
 --------------------------------------------------------------------------------
 
 CALCULO DIAMOND-FORRESTER (conforme relatorio medico anexado)
 --------------------------------------------------------------------------------
 Faixa etaria             : 50-59 anos
 Sexo                     : Masculino
-Tipo de dor              : Angina tipica
+Tipo de dor              : Angina atipica
 Probabilidade pre-teste  : 48,9%
 Referencia bibliografica : Genders et al., 2011
 --------------------------------------------------------------------------------
 
-
   Relatorio Medico com Calculo Formal Diamond-Forrester
   ............................................................................
-  Paciente R.S.M., 52 anos, masculino. Relata dor precordial tipica
-  aos esforcos moderados ha 3 semanas, com irradiacao para mandibula
-  e alivio com repouso. Aplicada tabela Diamond-Forrester revisada
-  (Genders et al., 2011): sexo masculino, faixa etaria 50-59 anos,
-  angina tipica -- probabilidade pre-teste de 48,9%. Solicita-se
-  angiotomografia coronariana como metodo diagnostico inicial para
-  avaliacao de doenca arterial coronariana.
+  Paciente R.S.M., 52 anos, masculino. Relata episodios de dor
+  precordial atipica aos esforcos moderados ha 3 semanas, de carater
+  intermitente, sem irradiacao definida e com alivio espontaneo.
+  Aplicada tabela Diamond-Forrester revisada (Genders et al., 2011):
+  sexo masculino, faixa etaria 50-59 anos, angina atipica --
+  probabilidade pre-teste de 48,9%, dentro da janela de 10% a 70%
+  exigida pela DUT 3, criterio (a). Solicita-se angiotomografia
+  coronariana como metodo diagnostico inicial para avaliacao de
+  doenca arterial coronariana, em substituicao a outros metodos
+  diagnosticos disponiveis.
   ............................................................................
 
   ECG de Repouso
