@@ -1,0 +1,84 @@
+SOLICITACAO DE AUTORIZACAO DE PROCEDIMENTO
+___________________________________________________________________________
+
+OPERADORA .............. ____________________    GUIA ........... __________
+DATA EMISSAO ........... ___/___/______          PROTOCOLO ...... __________
+___________________________________________________________________________
+
+
+BENEFICIARIO
+___________________________________________________________________________
+
+Iniciais ........... W.L.C.               Sexo ........... Masculino
+Idade .............. 66 anos              Carteirinha .... __________________
+CPF ................ __________________   Plano .......... __________________
+
+
+SOLICITANTE
+___________________________________________________________________________
+
+Nome ............... __________________   CRM ............ __________________
+Especialidade ...... Cardiologia          Contato ........ __________________
+
+
+PROCEDIMENTO SOLICITADO
+___________________________________________________________________________
+
+Codigo TUSS ........ 41001230
+Descricao .......... TC - ANGIOTOMOGRAFIA CORONARIANA
+CID-10 ............. I25.9
+Descricao CID ...... Doenca isquemica cronica do coracao nao especificada
+Carater ............ ( ) Eletivo     ( ) Urgencia     ( ) Emergencia
+
+___________________________________________________________________________
+
+Paciente com dispneia progressiva aos esforços e dor precordial
+atípica. Teste ergométrico positivo para isquemia. Cintilografia
+miocárdica de perfusão realizada 30 dias depois: normal, sem defeitos
+de perfusão. Quadro clínico e exames funcionais conflitantes com dúvida
+diagnóstica persistente sobre etiologia isquêmica. Solicito
+angiotomografia coronariana para definição anatômica das coronárias
+
+
+  Relatorio Medico do Cardiologista
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  "Paciente W.L.C., 66 anos, masculino. Queixa de dispneia progressiva
+  aos esforcos e dor precordial atipica. Submetido a investigacao
+  funcional sequencial:
+
+  1o exame: teste ergometrico -- POSITIVO para isquemia
+  2o exame: cintilografia miocardica (SPECT) -- NORMAL
+
+  Resultados diretamente conflitantes. Duvida diagnostica sobre
+  etiologia isquemica persiste apos ambos os metodos nao invasivos
+  disponiveis. Solicita-se angiotomografia coronariana para definicao
+  anatomica das coronarias
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+  Teste Ergometrico
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  Data realizacao ......... ha aproximadamente 2 meses
+  Capacidade funcional .... 7 METs
+  Alteracao detectada ..... Infradesnivelamento de ST 1,5mm
+                            horizontal em V4-V6 no pico do esforco
+  Conclusao ............... POSITIVO para isquemia miocardica
+                            induzida por esforco
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+  Cintilografia Miocardica de Perfusao (SPECT)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  Data realizacao ......... ha aproximadamente 1 mes
+  Defeitos de perfusao .... Ausentes (repouso e esforco)
+  Funcao ventricular ...... Preservada
+  Conclusao ............... NORMAL -- sem evidencia de isquemia
+                            ou necrose miocardica
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  ECG Basal Recente
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  Ritmo ................... Sinusal
+  Bloqueio ................ Bloqueio de ramo direito incompleto (BRDI)
+  Alteracoes isquemicas ... Ausentes em repouso
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

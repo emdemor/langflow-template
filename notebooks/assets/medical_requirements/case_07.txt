@@ -1,0 +1,87 @@
+GUIA SOLICITACAO EXAME -- TISS
+
+data: __/__/____          guia nr: _______________       operadora: __________
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+PACIENTE
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+nome: *** ILEGIVEL ***              iniciais: F.A.N.
+sexo: M                             idade: 47a
+carteirinha: _______________        cpf: _______________
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MEDICO SOLICITANTE
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+nome: *** ASSINATURA ILEGIVEL ***
+crm: *** ILEGIVEL ***               especialidade: *** NAO INFORMADO ***
+contato: *** NAO INFORMADO ***
+unidade origem: UPA *** ILEGIVEL ***
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+PROCEDIMENTO
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+desc:  TC - ANGIOTOMOGRAFIA CORONARIANA
+tuss:  41001230
+cid:   R07.4  --  Dor toracica inespecificada
+carater: ( ) eletivo  (X) urgencia  ( ) emergencia
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+INDICACAO CLINICA
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+"pcte admitido UPA c/ dor precordial opressiva 4h, s/ irradiacao,
+sudorese leve. ecg s/ supra ST ou inversao T. tropI neg x2 (intervalo
+3h). timi risk = 2pts. SCA baixo risco. solicito angiotomo coronariana
+p/ def diagnostica antes alta."
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  "...dor toracica tipica de inicio subito, carater opressivo, sem
+  irradiacao, acompanhada de sudorese fria. inicio ha aprox 4 horas.
+  paciente refere 2 episodios semelhantes na ultima semana.
+
+  TIMI Risk calculado:
+    idade >= 65a .............. 0
+    >= 3 fatores de risco ..... 1   (HAS + tabagismo + dislipidemia)
+    estenose coron previa ..... 0
+    desvio ST no ECG .......... 0
+    >= 2 epis anginosos 24h ... 1
+    uso AAS ult 7 dias ........ 0
+    marcadores elevados ....... 0
+                          TOTAL: 2 pontos
+
+  compativel c/ SCA baixo risco. solicito angiotomografia coronariana
+  p/ esclarecimento diag antes da alta..."
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  ECG 12 derivacoes
+
+  data/hora registro      : *** NAO PREENCHIDO ***
+  ritmo                   : sinusal
+  fc                      : 88 bpm
+  supra ST                : ausente
+  infra ST                : ausente
+  inversao onda T         : ausente
+  BRE novo                : ausente
+  conclusao               : "ECG dentro dos limites da normalidade"
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Troponina I  --  1a coleta
+
+  exame                   : Troponina I
+  horario coleta          : *** NAO PREENCHIDO ***
+  resultado               : 0,02 ng/mL
+  valor referencia        : < 0,04 ng/mL
+  interpretacao           : NEGATIVO
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Troponina I  --  2a coleta (intervalo: 3h)
+
+  exame                   : Troponina I
+  horario coleta          : *** NAO PREENCHIDO ***
+  resultado               : 0,02 ng/mL
+  valor referencia        : < 0,04 ng/mL
+  interpretacao           : NEGATIVO
+  delta troponina         : 0,00 ng/mL

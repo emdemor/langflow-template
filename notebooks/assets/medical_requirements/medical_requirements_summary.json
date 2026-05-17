@@ -1,0 +1,489 @@
+[
+  {
+    "id": 1,
+    "titulo": "Rastreamento em assintomático de alto risco",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "Z13.6",
+      "descricao_cid": "Rastreamento cardiovascular"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "J.A.S.",
+        "sexo": "masculino",
+        "idade": 58
+      },
+      "texto_livre": "Paciente hipertenso, diabético tipo 2, dislipidêmico, tabagista. Solicito angiotomografia coronariana para rastreamento de doença arterial coronariana e estratificação de risco cardiovascular."
+    },
+    "criterio_dut_invocado": null,
+    "documentos_anexados": [
+      {
+        "documento": "Relatório médico",
+        "conteudo_resumido": "Descreve os fatores de risco cardiovascular do paciente (HAS, DM2, dislipidemia, tabagismo) e menciona Escore de Framingham elevado como justificativa para o exame.",
+        "problema": "Framingham elevado não é critério DUT. O documento comprova risco cardiovascular, não sintomatologia — o que a DUT exige."
+      },
+      {
+        "documento": "Exames laboratoriais recentes",
+        "conteudo_resumido": "Glicemia 187 mg/dL, HbA1c 8,2%, LDL 162 mg/dL, triglicerídeos 310 mg/dL.",
+        "problema": "Confirmam descontrole metabólico e risco, mas não caracterizam sintomas isquêmicos nem satisfazem qualquer critério da DUT 3."
+      },
+      {
+        "documento": "ECG de repouso",
+        "conteudo_resumido": "Ritmo sinusal, sem alterações isquêmicas agudas.",
+        "problema": "ECG normal em assintomático não abre nenhum critério DUT. Paradoxalmente pode reforçar a negativa ao demonstrar ausência de alterações."
+      }
+    ],
+    "motivo_negativa": {
+      "criterio_violado": "nenhum",
+      "explicacao": "Nenhum dos documentos anexados demonstra sintomatologia ativa nem probabilidade pré-teste calculada segundo Diamond-Forrester. O paciente é assintomático. Os documentos provam risco cardiovascular elevado, que é condição necessária mas não suficiente para a DUT 3. O plano nega corretamente pois o critério (a) exige paciente sintomático."
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "Dor torácica com probabilidade pré-teste abaixo do limiar",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "R07.4",
+      "descricao_cid": "Dor torácica inespecificada"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "M.F.O.",
+        "sexo": "feminino",
+        "idade": 35
+      },
+      "texto_livre": "Paciente com dor torácica atípica esporádica. Solicito angiotomografia coronariana para afastar DAC."
+    },
+    "criterio_dut_invocado": "a",
+    "calculo_diamond_forrester": {
+      "idade": "30-39",
+      "sexo": "feminino",
+      "tipo_dor": "angina_atipica",
+      "probabilidade_pre_teste_percent": 9.6,
+      "faixa_exigida_dut_percent": { "minimo": 10, "maximo": 70 },
+      "dentro_da_faixa": false
+    },
+    "documentos_anexados": [
+      {
+        "documento": "Relatório médico",
+        "conteudo_resumido": "Descreve episódios de dor torácica atípica e menciona 'probabilidade pré-teste intermediária' sem apresentar o cálculo formal nem indicar a fonte metodológica.",
+        "problema": "A afirmação de probabilidade intermediária não está sustentada por cálculo formal. O auditor do plano aplicará a tabela Diamond-Forrester e encontrará 9,6% — abaixo do mínimo de 10%. Alegação sem cálculo documentado é facilmente derrubada."
+      },
+      {
+        "documento": "ECG de repouso",
+        "conteudo_resumido": "Normal.",
+        "problema": "Não agrega evidência de isquemia nem altera o cálculo de probabilidade pré-teste."
+      },
+      {
+        "documento": "Ecocardiograma transtorácico",
+        "conteudo_resumido": "Função sistólica preservada, FEVE 68%, sem alterações segmentares.",
+        "problema": "Eco normal em paciente jovem não abre critério DUT. O plano interpreta como ausência de doença estrutural, reforçando a negativa."
+      },
+      {
+        "documento": "Exames laboratoriais",
+        "conteudo_resumido": "Colesterol total 198 mg/dL, LDL 118 mg/dL, glicemia normal, TSH normal.",
+        "problema": "Perfil lipídico e metabólico normal não contribuem para nenhum critério DUT e não alteram a probabilidade pré-teste calculada."
+      }
+    ],
+    "motivo_negativa": {
+      "criterio_violado": "a",
+      "explicacao": "Apesar de o médico alegar probabilidade intermediária no relatório, nenhum documento apresenta o cálculo formal segundo Diamond-Forrester revisado. Ao aplicar a tabela, mulher de 35 anos com angina atípica resulta em 9,6% — abaixo do limiar de 10%. Os demais exames anexados não compensam essa falha e não abrem nenhum outro critério DUT."
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Pedido pós-diagnóstico confirmado para controle de reestenose",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "I25.1",
+      "descricao_cid": "Doença aterosclerótica do coração com angina"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "H.R.M.",
+        "sexo": "masculino",
+        "idade": 63
+      },
+      "texto_livre": "Portador de DAC obstrutiva confirmada em cineangiocoronariografia realizada há 8 meses, com stent em DA. Solicito angiotomografia coronariana para controle de reestenose intra-stent."
+    },
+    "criterio_dut_invocado": "c",
+    "documentos_anexados": [
+      {
+        "documento": "Relatório médico do cardiologista assistente",
+        "conteudo_resumido": "Descreve retorno de sintomas anginosos após implante de stent e solicita angiotomografia para 'reavaliação coronariana'.",
+        "problema": "O relatório descreve DAC já diagnosticada e tratada. O critério (c) é exclusivo para IC recente com etiologia indefinida, não para reavaliação de DAC conhecida. O próprio texto do relatório confirma o diagnóstico prévio, o que inviabiliza qualquer critério DUT que exige doença indefinida."
+      },
+      {
+        "documento": "Laudo da cineangiocoronariografia prévia",
+        "conteudo_resumido": "Lesão obstrutiva de 80% em DA proximal, tratada com implante de stent farmacológico.",
+        "problema": "Confirma o diagnóstico de DAC — trabalha contra o pedido. O plano usa este documento como evidência de que a fase diagnóstica já foi concluída."
+      },
+      {
+        "documento": "ECG recente",
+        "conteudo_resumido": "Alterações inespecíficas de repolarização em parede anterior.",
+        "problema": "Alterações de ECG em paciente com stent prévio são esperadas e não reabrem critérios DUT. Não caracterizam novo quadro diagnóstico indefinido."
+      },
+      {
+        "documento": "Teste ergométrico",
+        "conteudo_resumido": "Positivo para isquemia em baixa carga.",
+        "problema": "Embora sugira reestenose, o teste positivo em paciente com DAC conhecida indica recanalização por cateterismo, não angiotomografia. A DUT não prevê este uso e o plano negará com base na ausência de critério aplicável."
+      }
+    ],
+    "motivo_negativa": {
+      "criterio_violado": "nenhum",
+      "explicacao": "Todos os documentos anexados, em conjunto, confirmam que o paciente possui DAC já diagnosticada e tratada. A DUT 3 não prevê cobertura para seguimento ou controle pós-intervenção. Ironicamente, quanto mais completa a documentação enviada, mais evidente fica para o auditor que nenhum critério DUT é aplicável ao caso."
+    }
+  },
+  {
+    "id": 4,
+    "titulo": "Critério (b) não satisfeito: marcadores de necrose elevados e TIMI Risk alto",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "I21.9",
+      "descricao_cid": "Infarto agudo do miocárdio não especificado"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "A.C.B.",
+        "sexo": "masculino",
+        "idade": 71
+      },
+      "texto_livre": "Paciente admitido com dor precordial em repouso há 2h, sudorese e irradiação para membro superior esquerdo. Troponina I: 4,8 ng/mL. TIMI Risk 5. Solicito angiotomografia coronariana para definição anatômica."
+    },
+    "criterio_dut_invocado": "b",
+    "dados_clinicos": {
+      "timi_risk": 5,
+      "timi_risk_exigido_dut": { "minimo": 1, "maximo": 2 },
+      "timi_dentro_do_criterio": false,
+      "troponina_I_resultado_ng_mL": 4.8,
+      "troponina_I_referencia_ng_mL": 0.04,
+      "marcador_necrose_positivo": true
+    },
+    "documentos_anexados": [
+      {
+        "documento": "Resultado de troponina I",
+        "conteudo_resumido": "Troponina I: 4,8 ng/mL (valor de referência: < 0,04 ng/mL).",
+        "problema": "Comprova marcador de necrose fortemente positivo — o oposto do que o critério (b) exige. O documento destrói a elegibilidade ao critério invocado."
+      },
+      {
+        "documento": "ECG de 12 derivações",
+        "conteudo_resumido": "Supradesnivelamento de ST de 2mm em DII, DIII e aVF, sugestivo de IAMCSST inferior.",
+        "problema": "Alteração isquêmica aguda no ECG também contradiz o critério (b), que exige ausência de alterações isquêmicas eletrocardiográficas."
+      },
+      {
+        "documento": "Relatório médico de admissão",
+        "conteudo_resumido": "Descreve o quadro de dor típica, os achados do ECG e da troponina e solicita angiotomografia para 'definição anatômica antes de qualquer intervenção'.",
+        "problema": "A justificativa de definição anatômica pré-intervenção em IAM com supradesnivelamento de ST é clinicamente inadequada e contrária aos protocolos de reperfusão. O plano nega e, na prática, a equipe assistente deveria acionar hemodinâmica de emergência."
+      },
+      {
+        "documento": "Escore TIMI Risk calculado",
+        "conteudo_resumido": "TIMI Risk = 5 pontos.",
+        "problema": "Score 5 está fora da faixa 1-2 exigida pela DUT. O próprio documento do escore confirma a não elegibilidade ao critério (b)."
+      }
+    ],
+    "motivo_negativa": {
+      "criterio_violado": "b",
+      "explicacao": "Todos os quatro documentos anexados contradizem o critério (b): troponina fortemente positiva, ECG com supradesnivelamento de ST e TIMI Risk 5. O conjunto documental não apenas falha em satisfazer a DUT como evidencia uma indicação clinicamente inadequada — o caso requer cateterismo de emergência, não angiotomografia."
+    }
+  },
+  {
+    "id": 5,
+    "titulo": "Critério (d) invocado sem realização prévia de exame funcional",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "I20.8",
+      "descricao_cid": "Outras formas de angina do peito"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "L.T.P.",
+        "sexo": "feminino",
+        "idade": 54
+      },
+      "texto_livre": "Paciente com palpitações e dispneia aos esforços moderados. Exames laboratoriais normais. Quadro clínico conflitante com dúvida diagnóstica. Solicito angiotomografia coronariana."
+    },
+    "criterio_dut_invocado": "d",
+    "pre_requisitos_dut_d": {
+      "exame_funcional_realizado": false,
+      "resultado_conflitante_documentado": false
+    },
+    "documentos_anexados": [
+      {
+        "documento": "Relatório médico",
+        "conteudo_resumido": "Descreve os sintomas e afirma que 'há dúvida diagnóstica persistente sobre etiologia isquêmica, justificando angiotomografia coronariana conforme critério (d) da DUT 3'.",
+        "problema": "O médico cita o critério (d) corretamente no texto, mas não apresenta nenhum laudo de exame funcional prévio que sustente a afirmação de 'conflito'. Apenas nomear o critério sem evidência documental é insuficiente — o auditor exigirá os laudos dos exames funcionais."
+      },
+      {
+        "documento": "Ecocardiograma transtorácico",
+        "conteudo_resumido": "FEVE 62%, sem alterações segmentares de contratilidade.",
+        "problema": "Ecocardiograma é exame morfológico e de função, não exame funcional para avaliação de isquemia. Não substitui ergometria, cintilografia ou eco estresse para fins do critério (d)."
+      },
+      {
+        "documento": "Exames laboratoriais",
+        "conteudo_resumido": "Hemograma, função tireoidiana, glicemia e lipidograma dentro dos limites normais.",
+        "problema": "Laboratório normal afasta causas metabólicas mas não constitui exame funcional cardiovascular. Não satisfaz o pré-requisito do critério (d)."
+      },
+      {
+        "documento": "Holter 24h",
+        "conteudo_resumido": "Extrassístoles ventriculares isoladas ocasionais, sem taquicardias sustentadas.",
+        "problema": "Holter avalia arritmias, não isquemia. Não é considerado exame funcional para avaliação de isquemia miocárdica nos termos da DUT 3."
+      }
+    ],
+    "motivo_negativa": {
+      "criterio_violado": "d",
+      "explicacao": "Apesar de o relatório médico citar corretamente o critério (d) e de haver quatro documentos anexados, nenhum deles é um exame funcional para avaliação de isquemia (ergometria, cintilografia miocárdica, eco estresse). O critério (d) é explícito ao exigir que a dúvida persista após a realização desses exames. A documentação enviada demonstra que o pré-requisito fundamental simplesmente não foi cumprido."
+    }
+  },
+  {
+    "id": 6,
+    "titulo": "Angina típica com probabilidade pré-teste intermediária — critério (a)",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "I20.0",
+      "descricao_cid": "Angina instável"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "R.S.M.",
+        "sexo": "masculino",
+        "idade": 52
+      },
+      "texto_livre": "Paciente com quadro de dor precordial típica aos esforços moderados há 3 semanas, com irradiação para mandíbula e alívio ao repouso. Probabilidade pré-teste calculada de 48,9% segundo critérios de Diamond-Forrester revisado (Genders et al., 2011). Solicito angiotomografia coronariana como método diagnóstico inicial para avaliação de doença arterial coronariana."
+    },
+    "criterio_dut_invocado": "a",
+    "calculo_diamond_forrester": {
+      "idade": "50-59",
+      "sexo": "masculino",
+      "tipo_dor": "angina_tipica",
+      "probabilidade_pre_teste_percent": 48.9,
+      "faixa_exigida_dut_percent": { "minimo": 10, "maximo": 70 },
+      "dentro_da_faixa": true
+    },
+    "documentos_anexados": [
+      {
+        "documento": "Relatório médico com cálculo formal Diamond-Forrester",
+        "conteudo_resumido": "Descreve o quadro de angina típica (dor opressiva em esforço, irradiação para mandíbula, alívio com repouso), apresenta a tabela Diamond-Forrester preenchida com os dados do paciente — sexo masculino, faixa 50-59 anos, angina típica — e documenta a probabilidade pré-teste de 48,9%, dentro da faixa de 10% a 70% exigida pela DUT 3-a.",
+        "contribuicao": "Documento central do pedido. Demonstra de forma objetiva e rastreável que o critério (a) está satisfeito, com metodologia explícita e referência bibliográfica citada."
+      },
+      {
+        "documento": "ECG de repouso",
+        "conteudo_resumido": "Ritmo sinusal regular, sem alterações isquêmicas agudas, sem ondas Q patológicas.",
+        "contribuicao": "Confirma ausência de IAM prévio silencioso e de alterações que pudessem redirecionar a conduta para outro método diagnóstico. Complementa o quadro clínico descrito no relatório."
+      },
+      {
+        "documento": "Exames laboratoriais recentes",
+        "conteudo_resumido": "Troponina I negativa, colesterol total 224 mg/dL, LDL 148 mg/dL, glicemia de jejum 108 mg/dL.",
+        "contribuicao": "Troponina negativa afasta evento agudo em curso e é consistente com o quadro de angina estável descrito. Perfil lipídico alterado reforça o contexto clínico de risco para DAC."
+      }
+    ],
+    "motivo_aprovacao": {
+      "criterio_satisfeito": "a",
+      "explicacao": "O relatório médico apresenta o cálculo formal da probabilidade pré-teste com metodologia explícita (Diamond-Forrester revisado), resultado de 48,9% — dentro da faixa de 10% a 70% — e caracterização clínica clara de angina típica. Os documentos de suporte são coerentes entre si e com o critério invocado. Não há contradição documental. O auditor do plano encontra tudo o que precisa para deferir sem necessidade de solicitação de informações adicionais."
+    }
+  },
+  {
+    "id": 7,
+    "titulo": "Dor torácica aguda com TIMI Risk 2 e marcadores negativos — critério (b)",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "R07.4",
+      "descricao_cid": "Dor torácica inespecificada"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "F.A.N.",
+        "sexo": "masculino",
+        "idade": 47
+      },
+      "texto_livre": "Paciente admitido em UPA com dor precordial opressiva de início há 4h, sem irradiação, com sudorese leve. ECG sem supradesnivelamento de ST ou inversão de onda T. Troponina I negativa em duas coletas seriadas com intervalo de 3h. Escore TIMI Risk calculado: 2 pontos. Compatível com síndrome coronariana aguda de baixo risco. Solicito angiotomografia coronariana para definição diagnóstica antes da alta hospitalar."
+    },
+    "criterio_dut_invocado": "b",
+    "dados_clinicos": {
+      "timi_risk": 2,
+      "timi_risk_exigido_dut": { "minimo": 1, "maximo": 2 },
+      "timi_dentro_do_criterio": true,
+      "troponina_I_serie_1_ng_mL": 0.02,
+      "troponina_I_serie_2_ng_mL": 0.02,
+      "troponina_I_referencia_ng_mL": 0.04,
+      "marcador_necrose_positivo": false,
+      "alteracao_ecg_isquemica": false
+    },
+    "documentos_anexados": [
+      {
+        "documento": "Relatório médico com escore TIMI Risk calculado e detalhado",
+        "conteudo_resumido": "Descreve o quadro clínico de dor torácica aguda compatível com SCA e apresenta o TIMI Risk discriminado ponto a ponto: idade ≥ 65 anos (0), ≥ 3 fatores de risco (1), estenose coronariana prévia conhecida (0), desvio de ST no ECG de admissão (0), ≥ 2 eventos anginosos nas últimas 24h (1), uso de AAS nos últimos 7 dias (0), marcadores elevados (0). Total: 2 pontos.",
+        "contribuicao": "TIMI Risk discriminado ponto a ponto elimina qualquer ambiguidade sobre o score. O auditor não precisa recalcular — o documento é autoexplicativo e transparente."
+      },
+      {
+        "documento": "ECG de 12 derivações realizado na admissão",
+        "conteudo_resumido": "Ritmo sinusal, frequência 88bpm, sem supradesnivelamento ou infradesnivelamento de ST, sem inversão de onda T, sem BRE novo.",
+        "contribuicao": "Comprova ausência de alterações isquêmicas agudas ao ECG, satisfazendo explicitamente um dos três sub-requisitos do critério (b)."
+      },
+      {
+        "documento": "Resultado de troponina I seriada — 1ª coleta",
+        "conteudo_resumido": "Troponina I: 0,02 ng/mL. Valor de referência: < 0,04 ng/mL. Resultado: NEGATIVO.",
+        "contribuicao": "Primeira coleta negativa de marcador de necrose, satisfazendo parcialmente o sub-requisito de ausência de marcadores elevados."
+      },
+      {
+        "documento": "Resultado de troponina I seriada — 2ª coleta (3h após admissão)",
+        "conteudo_resumido": "Troponina I: 0,02 ng/mL. Valor de referência: < 0,04 ng/mL. Resultado: NEGATIVO. Delta troponina: zero.",
+        "contribuicao": "Segunda coleta confirma ausência de elevação seriada, afastando IAMSST e completando o sub-requisito de marcadores negativos. A curva de troponina plana é o elemento mais robusto do conjunto documental."
+      }
+    ],
+    "motivo_aprovacao": {
+      "criterio_satisfeito": "b",
+      "explicacao": "Os três sub-requisitos do critério (b) estão satisfeitos por documentos específicos e independentes: TIMI Risk 2 detalhado ponto a ponto no relatório, ECG sem alterações isquêmicas e troponina seriada negativa em duas coletas. Cada exigência da DUT corresponde a pelo menos um documento anexado. Conjunto documental sem lacunas e sem contradições internas."
+    }
+  },
+  {
+    "id": 8,
+    "titulo": "Insuficiência cardíaca recente com etiologia indefinida após workup inicial — critério (c)",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "I50.9",
+      "descricao_cid": "Insuficiência cardíaca não especificada"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "C.B.O.",
+        "sexo": "feminino",
+        "idade": 61
+      },
+      "texto_livre": "Paciente com diagnóstico recente de insuficiência cardíaca com fração de ejeção reduzida (FEVE 35%). Sem histórico prévio de DAC ou angina. Workup etiológico inicial realizado sem definição de causa. Etiologia isquêmica versus miocardiopatia dilatada não isquêmica ainda indefinida. Solicito angiotomografia coronariana para descartar etiologia coronariana isquêmica conforme critério (c) da DUT 3."
+    },
+    "criterio_dut_invocado": "c",
+    "dados_clinicos": {
+      "diagnostico_ic": true,
+      "ic_recente": true,
+      "feve_percent": 35,
+      "duvida_etiologica_persistente": true,
+      "etiologia_definida_apos_workup": false
+    },
+    "documentos_anexados": [
+      {
+        "documento": "Relatório do cardiologista assistente",
+        "conteudo_resumido": "Descreve o diagnóstico de IC com FEVE reduzida, ausência de histórico de DAC, relato de que os exames complementares realizados não definiram etiologia e justifica a angiotomografia para descartar causa isquêmica, citando explicitamente o critério (c) da DUT 3.",
+        "contribuicao": "Ancora clinicamente o pedido ao critério correto. A menção explícita à persistência da dúvida etiológica após outros exames é o núcleo da elegibilidade ao critério (c)."
+      },
+      {
+        "documento": "Laudo do ecocardiograma transtorácico recente",
+        "conteudo_resumido": "FEVE 35% pelo método de Simpson, disfunção sistólica global difusa, sem alterações segmentares de contratilidade sugestivas de etiologia isquêmica focal. Realizado há 20 dias.",
+        "contribuicao": "Confirma o diagnóstico de IC com FEVE reduzida recente. A ausência de alterações segmentares não exclui DAC — reforça a necessidade de investigação anatômica adicional e sustenta a dúvida etiológica."
+      },
+      {
+        "documento": "Resultado laboratorial completo",
+        "conteudo_resumido": "Troponina I negativa, BNP 1.840 pg/mL (elevado), TSH normal, sorologias para Chagas negativas, VDRL negativo, ferritina e saturação de transferrina normais.",
+        "contribuicao": "Demonstra que causas tratáveis e alternativas (hipotireoidismo, Chagas, hemocromatose, sífilis) foram investigadas e descartadas, reforçando que a etiologia permanece indefinida após workup adequado — pré-requisito explícito do critério (c)."
+      },
+      {
+        "documento": "ECG recente",
+        "conteudo_resumido": "BRE de 3º grau, sem ondas Q patológicas, sem alterações sugestivas de necrose prévia.",
+        "contribuicao": "Ausência de ondas Q afasta IAM silencioso prévio de forma não definitiva, mantendo a dúvida sobre etiologia isquêmica e justificando a investigação anatômica."
+      }
+    ],
+    "motivo_aprovacao": {
+      "criterio_satisfeito": "c",
+      "explicacao": "IC com FEVE reduzida diagnosticada recentemente, comprovada por ecocardiograma. Workup etiológico documentado por laboratorial completo com causas alternativas descartadas. Dúvida isquêmica versus não isquêmica persistente e explicitamente registrada no relatório médico. Cada exigência implícita do critério (c) está coberta por pelo menos um documento específico."
+    }
+  },
+  {
+    "id": 9,
+    "titulo": "Dúvida diagnóstica após exames funcionais conflitantes — critério (d)",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "I25.9",
+      "descricao_cid": "Doença isquêmica crônica do coração não especificada"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "W.L.C.",
+        "sexo": "masculino",
+        "idade": 66
+      },
+      "texto_livre": "Paciente com dispneia progressiva aos esforços e dor precordial atípica. Teste ergométrico positivo para isquemia. Cintilografia miocárdica de perfusão realizada 30 dias depois: normal, sem defeitos de perfusão. Quadro clínico e exames funcionais conflitantes com dúvida diagnóstica persistente sobre etiologia isquêmica. Solicito angiotomografia coronariana para definição anatômica das coronárias conforme critério (d) da DUT 3."
+    },
+    "criterio_dut_invocado": "d",
+    "dados_clinicos": {
+      "exames_funcionais_realizados": true,
+      "resultado_conflitante": true,
+      "duvida_diagnostica_persistente": true,
+      "pre_requisito_exame_funcional_cumprido": true
+    },
+    "documentos_anexados": [
+      {
+        "documento": "Relatório médico do cardiologista",
+        "conteudo_resumido": "Descreve o quadro clínico, apresenta os resultados conflitantes dos dois exames funcionais e conclui que a dúvida diagnóstica persiste após os métodos não invasivos disponíveis, justificando a angiotomografia coronariana com citação explícita ao critério (d) da DUT 3.",
+        "contribuicao": "Integra os achados dos dois exames conflitantes em uma narrativa clínica coerente. O raciocínio médico documentado demonstra que a sequência de investigação foi correta e que a angiotomografia é o próximo passo lógico, não um atalho."
+      },
+      {
+        "documento": "Laudo do teste ergométrico",
+        "conteudo_resumido": "Infradesnivelamento de ST de 1,5mm horizontal em V4-V6 no pico do esforço, com capacidade funcional de 7 METs. Conclusão: positivo para isquemia miocárdica induzida por esforço.",
+        "contribuicao": "Primeiro exame funcional com resultado positivo para isquemia. Estabelece a suspeita clínica que justifica a investigação adicional e é o ponto de partida do conflito documental."
+      },
+      {
+        "documento": "Laudo da cintilografia miocárdica de perfusão (SPECT)",
+        "conteudo_resumido": "Sem defeitos de perfusão em repouso ou durante esforço. Função ventricular esquerda preservada. Conclusão: normal — sem evidência de isquemia ou necrose.",
+        "contribuicao": "Segundo exame funcional com resultado normal, diretamente conflitante com a ergometria positiva. A justaposição dos dois laudos é a evidência central do critério (d) e torna o pedido praticamente incontestável pelo auditor."
+      },
+      {
+        "documento": "ECG basal recente",
+        "conteudo_resumido": "Ritmo sinusal, bloqueio de ramo direito incompleto, sem alterações isquêmicas em repouso.",
+        "contribuicao": "Contextualiza a interpretação do teste ergométrico — o BRD incompleto pode contribuir para alterações de ST ao esforço, o que é uma fonte adicional de ambiguidade diagnóstica e reforça o conflito entre os exames funcionais."
+      }
+    ],
+    "motivo_aprovacao": {
+      "criterio_satisfeito": "d",
+      "explicacao": "Dois laudos de exames funcionais com resultados diretamente conflitantes, acompanhados de relatório médico que narra o raciocínio clínico e cita o critério (d) explicitamente. O ECG contextualiza a ambiguidade diagnóstica. O pré-requisito do critério (d) — realização prévia de exames funcionais — está comprovado documentalmente. Conjunto documental completo, coerente e autoexplicativo."
+    }
+  },
+  {
+    "id": 10,
+    "titulo": "Suspeita de coronária anômala em jovem com síncope aos esforços — critério (e)",
+    "guia_tiss": {
+      "codigo_tuss": "41001230",
+      "cid": "Q24.5",
+      "descricao_cid": "Malformação dos vasos coronários"
+    },
+    "pedido_medico": {
+      "paciente": {
+        "iniciais": "G.T.A.",
+        "sexo": "masculino",
+        "idade": 19
+      },
+      "texto_livre": "Paciente jovem, atleta amador, com dois episódios de síncope durante prática esportiva intensa nos últimos 4 meses. Ecocardiograma com janela acústica limitada e visualização inadequada das origens coronarianas. ECG e Holter sem arritmias complexas. Forte suspeita clínica de origem coronariana anômala como causa de síncope de esforço. Solicito angiotomografia coronariana para avaliação anatômica das coronárias conforme critério (e) da DUT 3."
+    },
+    "criterio_dut_invocado": "e",
+    "dados_clinicos": {
+      "suspeita_coronaria_anomala": true,
+      "faixa_etaria_risco_morte_subita": true,
+      "contexto_clinico": "síncope de esforço em atleta jovem",
+      "investigacao_previa_inconclusiva": true
+    },
+    "documentos_anexados": [
+      {
+        "documento": "Relatório médico do cardiologista pediátrico",
+        "conteudo_resumido": "Descreve os dois episódios de síncope durante esforço físico intenso, descarta causas arrítmicas e estruturais pelos exames realizados, levanta hipótese de coronária anômala como principal diagnóstico diferencial e cita explicitamente o critério (e) da DUT 3 como fundamento do pedido. Menciona o risco de morte súbita cardíaca associado ao quadro.",
+        "contribuicao": "Estabelece o raciocínio clínico que leva à suspeita de coronária anômala. A menção ao risco de morte súbita cria senso de urgência médica e torna politicamente difícil para o auditor negar sem respaldo técnico robusto."
+      },
+      {
+        "documento": "Laudo do ecocardiograma transtorácico",
+        "conteudo_resumido": "Função sistólica preservada, sem cardiopatia estrutural evidente. Janela acústica limitada com visualização inadequada da origem das artérias coronárias direita e esquerda.",
+        "contribuicao": "Documento crítico: confirma que a investigação não invasiva de primeira linha foi tentada e foi tecnicamente inconclusiva para as coronárias. Justifica o escalonamento para angiotomografia sem que o auditor possa alegar que o ecocardiograma deveria ter sido feito primeiro."
+      },
+      {
+        "documento": "Laudo do Holter 24h",
+        "conteudo_resumido": "Ritmo sinusal durante todo o registro. Extrassístoles ventriculares isoladas monomórficas ocasionais (< 50 em 24h). Sem taquicardias ventriculares, sem pausas significativas, sem bloqueios.",
+        "contribuicao": "Descarta síncope de causa arrítmica primária, direcionando a hipótese diagnóstica para causa estrutural ou coronariana. Reduz o diferencial e reforça a pertinência da investigação coronariana."
+      },
+      {
+        "documento": "ECG de 12 derivações em repouso",
+        "conteudo_resumido": "Ritmo sinusal, eixo normal, intervalo QT normal (QTc 410ms), sem pré-excitação, sem alterações sugestivas de síndrome de Brugada ou de repolarização precoce patológica.",
+        "contribuicao": "Afasta as principais causas elétricas de síncope de esforço em jovens (QT longo, Brugada, WPW). Em conjunto com o Holter normal, consolida a hipótese de causa coronariana estrutural e justifica a progressão para angiotomografia."
+      }
+    ],
+    "motivo_aprovacao": {
+      "criterio_satisfeito": "e",
+      "explicacao": "O critério (e) exige apenas suspeita documentada de coronárias anômalas — não requer probabilidade pré-teste nem exames funcionais prévios. O conjunto documental é exemplar: o relatório médico fundamenta a suspeita clinicamente, o ecocardiograma comprova que a investigação inicial foi realizada e foi inconclusiva para as coronárias, e o ECG com Holter descartam causas elétricas concorrentes. O CID Q24.5 está alinhado com o critério. Não há lacuna documental que o auditor possa invocar para negar."
+    }
+  }
+]

@@ -1,0 +1,79 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                          ref: 005/ANGIOTOMO
+  REQUERIMENTO DE AUTORIZACAO DE EXAME
+  Saude Suplementar  |  Padrao TISS  |  Alta Complexidade
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  PROCEDIMENTO ....... TC - ANGIOTOMOGRAFIA CORONARIANA
+  TUSS ............... 41001230
+  CID ................ I20.8  /  Outras formas de angina do peito
+  DUT invocada ....... Criterio (d)
+  Carater ............ (  ) eletivo    (  ) urgencia    (  ) emergencia
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  OPERADORA .......... ____________________   guia: ______________________
+  data emissao ....... ___/___/______         prot: ______________________
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  PACIENTE
+  ~~~~~~~~
+  iniciais ....... L.T.P.          sexo ........ Feminino
+  idade .......... 54 anos         carteirinha . ____________________
+  cpf ............ ____________________
+
+
+  MEDICO SOLICITANTE
+  ~~~~~~~~~~~~~~~~~~
+  nome ........... ____________________   crm ......... ________________
+  especialidade .. ____________________   contato ..... ________________
+
+
+  JUSTIFICATIVA CLINICA
+  ~~~~~~~~~~~~~~~~~~~~~
+  "Paciente com palpitações e dispneia aos esforços moderados. Exames
+  laboratoriais normais. Quadro clínico conflitante com dúvida
+  diagnóstica. Solicito angiotomografia coronariana."
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Exames funcionais previos realizados ........ nao informado
+  Resultado conflitante documentado ........... nao informado
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+     Paciente L.T.P., 54 anos, feminino. Queixa de palpitacoes e
+     dispneia aos esforcos moderados. Exames complementares realizados
+     sem definicao etiologica. Ha duvida diagnostica persistente sobre
+     etiologia isquemica.
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  >> Ecocardiograma Transtoracico
+
+     FEVE .......................... 62%
+     Alteracoes segmentares ........ Ausentes
+     Funcao diastolica ............. Normal
+     Conclusao ..................... Dentro dos limites da normalidade
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  >> Exames Laboratoriais
+
+     Hemograma ..................... Normal
+     Glicemia de jejum ............. Normal
+     Funcao tireoidiana (TSH) ...... Normal
+     Lipidograma ................... Normal
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  >> Holter 24h
+
+     Ritmo predominante ............ Sinusal
+     Extrassistoles ventriculares .. Isoladas ocasionais
+     Taquicardias sustentadas ...... Ausentes
+     Pausas ........................ Ausentes
+     Conclusao ..................... Sem arritmias complexas
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

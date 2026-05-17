@@ -1,0 +1,89 @@
+PLANO DE SAUDE -- SOLICITACAO DE PROCEDIMENTO
+_______  _______  _______  _______  _______  _______  _______  _______  ______
+
+GUIA .................... __________________   DATA ......... ___/___/______
+OPERADORA ............... __________________   PROTOCOLO .... __________________
+
+_______  _______  _______  _______  _______  _______  _______  _______  ______
+BENEFICIARIO
+_______  _______  _______  _______  _______  _______  _______  _______  ______
+
+INICIAIS ................ A.C.B.
+SEXO .................... Masculino
+IDADE ................... 71 anos
+CARTEIRINHA ............. __________________
+CPF ..................... __________________
+
+_______  _______  _______  _______  _______  _______  _______  _______  ______
+SOLICITANTE
+_______  _______  _______  _______  _______  _______  _______  _______  ______
+
+NOME .................... __________________
+CRM ..................... __________________
+ESPECIALIDADE ........... __________________
+CONTATO ................. __________________
+UNIDADE ................. __________________
+
+_______  _______  _______  _______  _______  _______  _______  _______  ______
+PROCEDIMENTO
+_______  _______  _______  _______  _______  _______  _______  _______  ______
+
+TUSS .................... 41001230
+DESCRICAO ............... TC - ANGIOTOMOGRAFIA CORONARIANA
+CID-10 .................. I21.9
+DESCRICAO CID ........... Infarto agudo do miocardio nao especificado
+CARATER ................. ( ) eletivo    ( ) urgencia    ( ) emergencia
+
+_______  _______  _______  _______  _______  _______  _______  _______  ______
+JUSTIFICATIVA CLINICA
+_______  _______  _______  _______  _______  _______  _______  _______  ______
+
+Paciente admitido com dor precordial em repouso há 2h, sudorese e
+irradiação para membro superior esquerdo. Troponina I: 4,8 ng/mL.
+TIMI Risk 5. Solicito angiotomografia coronariana para definição
+anatômica.
+
+
+          Resultado de Troponina I
+          ..................................................................
+          Exame .................. Troponina I
+          Resultado .............. 4,8 ng/mL
+          Valor referencia ....... < 0,04 ng/mL
+          Interpretacao .......... POSITIVO
+          ..................................................................
+
+
+          ECG de 12 Derivacoes
+          ..................................................................
+          Ritmo .................. Sinusal
+          Alteracao detectada .... Supradesnivelamento de ST de 2mm
+                                   em DII, DIII e aVF
+          Imagem em espelho ...... Presente em aVL
+          Conclusao .............. Padrao compativel com IAMCSST
+                                   de parede inferior em evolucao
+          ..................................................................
+
+
+          Relatorio Medico de Admissao
+          ..................................................................
+          Paciente A.C.B., 71 anos, masculino. Admitido com dor
+          precordial tipica em repouso ha 2h, irradiacao para membro
+          superior esquerdo e sudorese. ECG com supradesnivelamento
+          de ST em parede inferior. Troponina I de 4,8 ng/mL.
+          TIMI Risk calculado: 5 pontos. Solicita-se angiotomografia
+          coronariana para definicao anatomica antes de qualquer
+          intervencao.
+          ..................................................................
+
+
+          Escore TIMI Risk
+          ..................................................................
+          idade >= 65 anos ....... 1
+          >= 3 fatores de risco .. 1
+          estenose coron previa .. 1
+          desvio de ST no ECG .... 1
+          marcadores elevados .... 1
+          uso de AAS 7 dias ...... 0
+          >= 2 epis anginosos .... 1
+                         TOTAL    5 pontos
+          ..................................................................

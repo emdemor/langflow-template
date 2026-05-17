@@ -1,0 +1,110 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║          SOLICITACAO DE EXAME / PROCEDIMENTO DE ALTA COMPLEXIDADE          ║
+║                       SAUDE SUPLEMENTAR -- TISS                            ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║  TUSS: 41001230   TC - ANGIOTOMOGRAFIA CORONARIANA   CID: Q24.5            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Operadora  : ________________________   Guia nr   : ____________________
+  Data       : ___/___/______             Protocolo : ____________________
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  1. BENEFICIARIO                                                            ║
+╠═══════════════════════╦════════════════════╦══════════════╦════════════════╣
+║  Iniciais             ║  G.T.A.            ║  Sexo        ║  Masculino     ║
+╠═══════════════════════╬════════════════════╬══════════════╬════════════════╣
+║  Idade                ║  19 anos           ║  Carteirinha ║  ____________  ║
+╠═══════════════════════╬════════════════════╬══════════════╬════════════════╣
+║  CPF                  ║  ________________  ║  Plano       ║  ____________  ║
+╚═══════════════════════╩════════════════════╩══════════════╩════════════════╝
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  2. MEDICO SOLICITANTE                                                      ║
+╠═══════════════════════╦════════════════════╦══════════════╦════════════════╣
+║  Nome                 ║  ______________    ║  CRM         ║  ____________  ║
+╠═══════════════════════╬════════════════════╬══════════════╬════════════════╣
+║  Especialidade        ║  Cardiologia Pediatrica           ║  ____________  ║
+╠═══════════════════════╬════════════════════╬══════════════╬════════════════╣
+║  Contato              ║  ________________  ║              ║                ║
+╚═══════════════════════╩════════════════════╩══════════════╩════════════════╝
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  3. PROCEDIMENTO                                                            ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║  Descricao   :  TC - ANGIOTOMOGRAFIA CORONARIANA                           ║
+║  TUSS        :  41001230                                                    ║
+║  CID-10      :  Q24.5  --  Malformacao dos vasos coronarios                ║
+║  Carater     :  ( ) Eletivo        ( ) Urgencia        ( ) Emergencia      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+  Paciente jovem, atleta amador, com dois episódios de síncope durante
+  prática esportiva intensa nos últimos 4 meses. Ecocardiograma com
+  janela acústica limitada e visualização inadequada das origens
+  coronarianas. ECG e Holter sem arritmias complexas. Forte suspeita
+  clínica de origem coronariana anômala como causa de síncope de
+  esforço. Solicito angiotomografia coronariana para avaliação anatômica
+  das coronárias
+
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  Relatorio Medico  --  Cardiologista Pediatrico               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  Paciente G.T.A., 19 anos, masculino, atleta amador. Apresenta dois       │
+│  episodios de sincope durante esforco fisico intenso nos ultimos 4          │
+│  meses. Investigacao realizada: ecocardiograma (inconclusivo para           │
+│  origem coronariana), ECG e Holter (sem arritmias complexas).              │
+│                                                                              │
+│  Causas aritmicas e estruturais afastadas pelos exames realizados.         │
+│  Principal hipotese diagnostica: coronaria anomala como etiologia          │
+│  da sincope de esforco. Quadro associado a risco de morte subita           │
+│  cardiaca em atletas jovens.                                                │
+│                                                                              │
+│  Solicita-se angiotomografia coronariana para avaliacao anatomica          │
+│  das coronarias                                                            │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  Ecocardiograma Transtoracico                      │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Funcao sistolica          :  Preservada                                    │
+│  Cardiopatia estrutural    :  Ausente                                       │
+│  Janela acustica           :  Limitada                                      │
+│  Origem coronaria direita  :  Visualizacao INADEQUADA                      │
+│  Origem coronaria esquerda :  Visualizacao INADEQUADA                      │
+│  Conclusao                 :  Sem cardiopatia estrutural evidente.         │
+│                               Nao foi possivel avaliar origens             │
+│                               coronarianas por limitacao tecnica.          │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  Holter 24h                                        │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Ritmo predominante        :  Sinusal                                       │
+│  Extrassistoles ventricu.  :  Isoladas monomorficas ocasionais < 50/24h    │
+│  Taquicardias ventriculares:  Ausentes                                      │
+│  Pausas significativas     :  Ausentes                                      │
+│  Bloqueios                 :  Ausentes                                      │
+│  Conclusao                 :  Sem arritmias complexas. Sem substrato       │
+│                               aritmico identificado para a sincope.        │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ECG de 12 Derivacoes em Repouso                              │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Ritmo                     :  Sinusal                                       │
+│  Eixo                      :  Normal                                        │
+│  Intervalo QTc             :  410ms  (normal)                               │
+│  Pre-excitacao (WPW)       :  Ausente                                       │
+│  Sindrome de Brugada       :  Ausente                                       │
+│  Repolarizacao precoce pat.:  Ausente                                       │
+│  Conclusao                 :  ECG dentro dos limites da normalidade.       │
+│                               Sem alteracoes eletricas sugestivas de       │
+│                               canalopatias ou sindromes arritmicas.        │
+└──────────────────────────────────────────────────────────────────────────────┘

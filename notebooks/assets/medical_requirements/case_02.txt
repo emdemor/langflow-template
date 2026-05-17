@@ -1,0 +1,62 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  CONV. MEDICO -- SOLICITACAO DE EXAME DE ALTA COMPLEXIDADE
+                                                    ref: 002 / ___/___/______
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  operadora .. ____________________      guia ....... ____________________
+  protocolo .. ____________________      via ........ TISS padrao vigente
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  [ paciente ]
+  iniciais ............. M.F.O.
+  sexo ................. Feminino                 idade ...... 35 anos
+  carteirinha .......... ____________________     cpf ........ ________________
+  plano ................ ____________________     validade ... ___/___/______
+
+
+  [ solicitante ]
+  nome ................. *** NAO INFORMADO ***
+  crm .................. ____________________     especialidade ____________
+  contato .............. ____________________
+
+
+  [ procedimento ]
+  tuss ................. 41001230
+  descricao ............ TC - ANGIOTOMOGRAFIA CORONARIANA
+  cid-10 ............... R07.4  --  Dor toracica inespecificada
+  carater .............. (  ) eletivo   (  ) urgencia   (  ) emergencia
+
+
+  [ texto do medico ]
+  "Paciente com dor torácica atípica esporádica. Solicito
+  angiotomografia coronariana para afastar DAC."
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+      Paciente M.F.O., 35 anos, feminino. Relata episodios de dor
+      toracica atipica de carater esporadico. Probabilidade pre-teste
+      intermediaria para doenca arterial coronariana. Solicita-se
+      angiotomografia coronariana para afastar DAC.
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+      ecg de repouso
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      Normal.
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+      ecocardiograma transtoracico
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      funcao sistolica .......... preservada
+      FEVE ...................... 68%
+      alteracoes segmentares .... ausentes
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+      exames laboratoriais
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      colesterol total .......... 198 mg/dL
+      LDL colesterol ............ 118 mg/dL
+      glicemia de jejum ......... normal
+      TSH ....................... normal
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

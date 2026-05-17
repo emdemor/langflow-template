@@ -1,0 +1,62 @@
+SAUDE SUPLEMENTAR -- AUTORIZACAO DE PROCEDIMENTO
+ref: ANGIOTOMO-001                                    data: ___/___/______
+______________________________________________________________________________
+
+>> OPERADORA: ____________________   >> GUIA: ____________________
+>> PROTOCOLO: ____________________   >> TISS: padrao vigente
+
+______________________________________________________________________________
+[ BENEFICIARIO ]
+
+  nome .............. *** NAO INFORMADO ***
+  iniciais .......... J.A.S.
+  sexo .............. Masculino            idade .......... 58 anos
+  carteirinha ....... ____________________  cpf ............ ________________
+  plano ............. ____________________  validade ....... ___/___/______
+
+______________________________________________________________________________
+[ SOLICITANTE ]
+
+  nome .............. ____________________  crm ............ ________________
+  especialidade ..... ____________________  contato ........ ________________
+
+______________________________________________________________________________
+[ PROCEDIMENTO ]
+
+  descricao ......... TC - ANGIOTOMOGRAFIA CORONARIANA
+  tuss .............. 41001230
+  cid-10 ............ Z13.6
+  desc. cid ......... Rastreamento cardiovascular
+  carater ........... (  ) eletivo    (  ) urgencia    (  ) emergencia
+
+______________________________________________________________________________
+[ JUSTIFICATIVA DO MEDICO ]
+
+  "Paciente hipertenso, diabético tipo 2, dislipidêmico, tabagista.
+  Solicito angiotomografia coronariana para rastreamento de doença
+  arterial coronariana e estratificação de risco cardiovascular."
+
+______________________________________________________________________________
+
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Paciente J.A.S., 58 anos, masculino. Portador de hipertensao
+  arterial sistemica, diabetes mellitus tipo 2, dislipidemia e
+  tabagismo ativo. Escore de Framingham elevado. Solicita-se
+  angiotomografia coronariana para rastreamento de DAC e
+  estratificacao de risco cardiovascular.
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  2/3 ..... Exames Laboratoriais Recentes
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Glicemia de jejum       187 mg/dL
+  HbA1c                   8,2%
+  LDL colesterol          162 mg/dL
+  Triglicerideos          310 mg/dL
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  3/3 ..... ECG de Repouso
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  Ritmo sinusal regular.
+  Alteracoes isquemicas agudas  -- ausentes
+  Ondas Q patologicas           -- ausentes
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .

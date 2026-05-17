@@ -1,0 +1,41 @@
+{
+  "codigo": "DUT 3",
+  "titulo": "ANGIOTOMOGRAFIA CORONARIANA",
+  "regra": "cobertura_obrigatoria",
+  "condicao_geral": "Cobertura obrigatória quando preenchido pelo menos um dos critérios abaixo. Aplicável apenas em aparelhos multislice com 64 colunas de detectores ou mais.",
+  "criterios": [
+    {
+      "id": "a",
+      "descricao": "Avaliação inicial de pacientes sintomáticos com probabilidade pré-teste de 10% a 70%, calculada segundo os critérios de Diamond Forrester revisado (referência 1), como opção aos outros métodos diagnósticos de doença arterial coronariana.",
+      "tabela_referencia": {
+        "titulo": "Probabilidade pré-teste em pacientes com dor torácica (%)",
+        "fonte": "Adaptado de T.S.S. Genders et al., 2011",
+        "colunas": ["idade", "angina_tipica_homem", "angina_tipica_mulher", "angina_atipica_homem", "angina_atipica_mulher", "dor_nao_anginosa_homem", "dor_nao_anginosa_mulher"],
+        "linhas": [
+          { "idade": "30-39", "angina_tipica_homem": 59.1, "angina_tipica_mulher": 22.5, "angina_atipica_homem": 28.9, "angina_atipica_mulher": 9.6,  "dor_nao_anginosa_homem": 17.7, "dor_nao_anginosa_mulher": 5.3  },
+          { "idade": "40-49", "angina_tipica_homem": 68.9, "angina_tipica_mulher": 36.7, "angina_atipica_homem": 38.4, "angina_atipica_mulher": 14.0, "dor_nao_anginosa_homem": 24.8, "dor_nao_anginosa_mulher": 8.0  },
+          { "idade": "50-59", "angina_tipica_homem": 77.3, "angina_tipica_mulher": 47.1, "angina_atipica_homem": 48.9, "angina_atipica_mulher": 20.0, "dor_nao_anginosa_homem": 33.6, "dor_nao_anginosa_mulher": 11.7 },
+          { "idade": "60-69", "angina_tipica_homem": 83.9, "angina_tipica_mulher": 57.7, "angina_atipica_homem": 59.4, "angina_atipica_mulher": 27.7, "dor_nao_anginosa_homem": 43.7, "dor_nao_anginosa_mulher": 16.9 },
+          { "idade": "70-79", "angina_tipica_homem": 88.9, "angina_tipica_mulher": 67.7, "angina_atipica_homem": 69.2, "angina_atipica_mulher": 37.0, "dor_nao_anginosa_homem": 54.4, "dor_nao_anginosa_mulher": 23.8 },
+          { "idade": ">80",   "angina_tipica_homem": 92.5, "angina_tipica_mulher": 76.3, "angina_atipica_homem": 77.5, "angina_atipica_mulher": 47.4, "dor_nao_anginosa_homem": 64.6, "dor_nao_anginosa_mulher": 32.3 }
+        ]
+      }
+    },
+    {
+      "id": "b",
+      "descricao": "Dor torácica aguda em pacientes com escore TIMI RISK 1 ou 2, com sintomas compatíveis com síndrome coronariana aguda ou equivalente anginoso, sem alterações isquêmicas ao ECG e sem marcadores de necrose miocárdica."
+    },
+    {
+      "id": "c",
+      "descricao": "Pacientes com diagnóstico estabelecido de insuficiência cardíaca (IC) recente, para descartar doença coronariana isquêmica, quando permanece dúvida sobre a etiologia da IC mesmo após a realização de outros exames complementares."
+    },
+    {
+      "id": "d",
+      "descricao": "Pacientes com quadro clínico e exames complementares conflitantes, quando permanece dúvida diagnóstica mesmo após a realização de exames funcionais para avaliação de isquemia."
+    },
+    {
+      "id": "e",
+      "descricao": "Pacientes com suspeita de coronárias anômalas."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+================================================================================
+         GUIA DE SOLICITACAO DE EXAME / PROCEDIMENTO
+         Padrao TISS - Troca de Informacao em Saude Suplementar
+         Extracao OCR - Documento Digitalizado
+================================================================================
+
+IDENTIFICACAO DA SOLICITACAO
+--------------------------------------------------------------------------------
+Data emissao             : ___/___/______
+Numero da guia           : _______________________
+Codigo operadora         : _______________________
+--------------------------------------------------------------------------------
+
+DADOS DO BENEFICIARIO
+--------------------------------------------------------------------------------
+Nome completo            : *** DADO NAO INFORMADO ***
+Iniciais                 : R.S.M.
+Sexo                     : Masculino
+Idade                    : 52 anos
+Carteirinha              : _______________________
+CPF                      : _______________________
+Plano                    : _______________________
+Validade cartao          : ___/___/______
+--------------------------------------------------------------------------------
+
+DADOS DO MEDICO SOLICITANTE
+--------------------------------------------------------------------------------
+Nome                     : _______________________
+CRM                      : _______________________
+Especialidade            : _______________________
+Telefone contato         : _______________________
+--------------------------------------------------------------------------------
+
+PROCEDIMENTO SOLICITADO
+--------------------------------------------------------------------------------
+Descricao                : TC - ANGIOTOMOGRAFIA CORONARIANA
+Codigo TUSS              : 41001230
+CID-10                   : I20.0
+Descricao CID            : Angina instavel
+Carater                  : ( ) Eletivo   ( ) Urgencia   ( ) Emergencia
+--------------------------------------------------------------------------------
+
+INDICACAO CLINICA - TEXTO LIVRE DO MEDICO
+--------------------------------------------------------------------------------
+Paciente com quadro de dor precordial típica aos esforços moderados
+há 3 semanas, com irradiação para mandíbula e alívio ao repouso.
+Probabilidade pré-teste calculada de 48,9% segundo critérios de
+Diamond-Forrester revisado (Genders et al., 2011). Solicito
+angiotomografia coronariana como método diagnóstico inicial para
+avaliação de doença arterial coronariana.
+--------------------------------------------------------------------------------
+
+CALCULO DIAMOND-FORRESTER (conforme relatorio medico anexado)
+--------------------------------------------------------------------------------
+Faixa etaria             : 50-59 anos
+Sexo                     : Masculino
+Tipo de dor              : Angina tipica
+Probabilidade pre-teste  : 48,9%
+Referencia bibliografica : Genders et al., 2011
+--------------------------------------------------------------------------------
+
+
+  Relatorio Medico com Calculo Formal Diamond-Forrester
+  ............................................................................
+  Paciente R.S.M., 52 anos, masculino. Relata dor precordial tipica
+  aos esforcos moderados ha 3 semanas, com irradiacao para mandibula
+  e alivio com repouso. Aplicada tabela Diamond-Forrester revisada
+  (Genders et al., 2011): sexo masculino, faixa etaria 50-59 anos,
+  angina tipica -- probabilidade pre-teste de 48,9%. Solicita-se
+  angiotomografia coronariana como metodo diagnostico inicial para
+  avaliacao de doenca arterial coronariana.
+  ............................................................................
+
+  ECG de Repouso
+  ............................................................................
+  Ritmo sinusal regular.
+  Alteracoes isquemicas   : Ausentes
+  Ondas Q patologicas     : Ausentes
+  ............................................................................
+
+  Exames Laboratoriais Recentes
+  ............................................................................
+  Troponina I             : Negativa
+  Colesterol total        : 224 mg/dL
+  LDL colesterol          : 148 mg/dL
+  Glicemia de jejum       : 108 mg/dL
+  ............................................................................

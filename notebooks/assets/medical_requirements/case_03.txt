@@ -1,0 +1,77 @@
+================================================================================
+         GUIA DE SOLICITACAO DE EXAME / PROCEDIMENTO
+         Padrao TISS - Troca de Informacao em Saude Suplementar
+         Extracao OCR - Documento Digitalizado
+================================================================================
+
+IDENTIFICACAO DA SOLICITACAO
+--------------------------------------------------------------------------------
+Data emissao             : ___/___/______
+Numero da guia           : _______________________
+Codigo operadora         : _______________________
+--------------------------------------------------------------------------------
+
+DADOS DO BENEFICIARIO
+--------------------------------------------------------------------------------
+Nome completo            : *** DADO NAO INFORMADO ***
+Iniciais                 : H.R.M.
+Sexo                     : Masculino
+Idade                    : 63 anos
+Carteirinha              : _______________________
+CPF                      : _______________________
+Plano                    : _______________________
+Validade cartao          : ___/___/______
+--------------------------------------------------------------------------------
+
+DADOS DO MEDICO SOLICITANTE
+--------------------------------------------------------------------------------
+Nome                     : _______________________
+CRM                      : _______________________
+Especialidade            : Cardiologia
+Telefone contato         : _______________________
+--------------------------------------------------------------------------------
+
+PROCEDIMENTO SOLICITADO
+--------------------------------------------------------------------------------
+Descricao                : TC - ANGIOTOMOGRAFIA CORONARIANA
+Codigo TUSS              : 41001230
+CID-10                   : I25.1
+Descricao CID            : Doenca aterosclerotica do coracao com angina
+Carater                  : ( ) Eletivo   ( ) Urgencia   ( ) Emergencia
+--------------------------------------------------------------------------------
+
+
+Portador de DAC obstrutiva confirmada em cineangiocoronariografia
+realizada há 8 meses, com stent em DA. Solicito angiotomografia
+coronariana para controle de reestenose intra-stent.
+
+
+--------------------------------------------------------------------------------
+
+  Paciente H.R.M., 63 anos, masculino. Portador de DAC obstrutiva
+  confirmada. Submetido a implante de stent farmacologico em arteria
+  descendente anterior ha 8 meses. Relata retorno de sintomas anginosos
+  ao esforco no ultimo mes. Solicita-se angiotomografia coronariana para
+  reavaliacao coronariana e exclusao de reestenose intra-stent.
+  ............................................................................
+
+  Laudo da Cineangiocoronariografia Previa
+  ............................................................................
+  Data aproximada         : 8 meses atras
+  Achados                 : Lesao obstrutiva de 80% em DA proximal.
+  Conduta realizada       : Implante de stent farmacologico 3,0 x 18mm
+                            em DA proximal. Fluxo TIMI 3 pos-procedimento.
+  Demais coronarias       : Sem lesoes obstrutivas significativas.
+  ............................................................................
+
+  ECG Recente
+  ............................................................................
+  Alteracoes inespecificas de repolarizacao em parede anterior.
+  ............................................................................
+
+  Teste Ergometrico
+  ............................................................................
+  Resultado               : Positivo para isquemia em baixa carga
+  Carga                   : 4 METs
+  Alteracao               : Infradesnivelamento de ST de 2mm em V4-V5
+  ............................................................................

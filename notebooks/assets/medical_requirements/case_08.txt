@@ -1,0 +1,100 @@
++------------------------------------------------------------------------------+
+|  SOLICITACAO DE PROCEDIMENTO ELETIVO -- SAUDE SUPLEMENTAR                   |
+|  TC - ANGIOTOMOGRAFIA CORONARIANA  |  TUSS 41001230  |  CID I50.9           |
++------------------------------------------------------------------------------+
+|  Guia nr  : ___________________    |  Data     : ___/___/______             |
+|  Operadora: ___________________    |  Protocolo: ___________________        |
++------------------------------------------------------------------------------+
+
++------------------------------------------------------------------------------+
+|  BENEFICIARIO                                                                |
++----------------+---------------------+---------------+----------------------+
+|  Iniciais      |  C.B.O.             |  Sexo         |  Feminino            |
++----------------+---------------------+---------------+----------------------+
+|  Idade         |  61 anos            |  Carteirinha  |  ___________________  |
++----------------+---------------------+---------------+----------------------+
+|  CPF           |  ___________________                                        |
++----------------+-----------------------------------------------------+------+
+
++------------------------------------------------------------------------------+
+|  MEDICO SOLICITANTE                                                          |
++----------------+---------------------+---------------+----------------------+
+|  Nome          |  ___________________  |  CRM        |  ___________________  |
++----------------+---------------------+---------------+----------------------+
+|  Especialidade |  Cardiologia          |  Contato    |  ___________________  |
++----------------+-------------------------------------------------------+----+
+
++------------------------------------------------------------------------------+
+|  PROCEDIMENTO                                                                |
++------------------------------------------------------------------------------+
+|  Descricao  :  TC - ANGIOTOMOGRAFIA CORONARIANA                             |
+|  TUSS       :  41001230                                                      |
+|  CID-10     :  I50.9  --  Insuficiencia cardiaca nao especificada           |
+|  Carater    :  ( X ) Eletivo          ( ) Urgencia       ( ) Emergencia     |
++------------------------------------------------------------------------------+
+
++------------------------------------------------------------------------------+
+|  INDICACAO CLINICA -- TEXTO DO MEDICO SOLICITANTE                           |
++------------------------------------------------------------------------------+
+|                                                                              |
+|  "Paciente com diagnóstico recente de insuficiência cardíaca com            |
+|  fração de ejeção reduzida (FEVE 35%). Sem histórico prévio de DAC          |
+|  ou angina. Workup etiológico inicial realizado sem definição de            |
+|  causa. Etiologia isquêmica versus miocardiopatia dilatada não              |
+|  isquêmica ainda indefinida. Solicito angiotomografia coronariana           |
+|  para descartar etiologia coronariana isquêmica.                            |
+|                                                                              |
++------------------------------------------------------------------------------+
+
++------------------------------------------------------------------------------+
+|  DOCUMENTOS ANEXADOS  (4 documentos)                                        |
++------------------------------------------------------------------------------+
+
+  +--------------------------------------------------------------------------+
+  |                                                                          |
+  |  Paciente C.B.O., 61 anos, feminino. Diagnostico recente de              |
+  |  insuficiencia cardiaca com fracao de ejecao reduzida (FEVE 35%         |
+  |  pelo metodo de Simpson). Sem historico previo de doenca arterial       |
+  |  coronariana, infarto ou angina. Workup etiologico realizado sem        |
+  |  definicao de causa isquemica ou nao isquemica. Etiologia               |
+  |  permanece indefinida apos exames complementares. Solicita-se           |
+  |  angiotomografia coronariana para descartar etiologia isquemica         |
+  |  coronariana.                                                           |
+  |                                                                          |
+  +--------------------------------------------------------------------------+
+
+  +--------------------------------------------------------------------------+
+  |  Ecocardiograma Transtoracico                                           |
+  +--------------------------------------------------------------------------+
+  |  Data realizacao       :  ha 20 dias                                    |
+  |  Metodo FEVE           :  Simpson biplano                               |
+  |  FEVE                  :  35%                                           |
+  |  Funcao sistolica      :  Disfuncao sistolica global difusa             |
+  |  Alteracoes segmentares:  Ausentes                                      |
+  |  Conclusao             :  IC com FEVE reduzida. Padrao difuso           |
+  |                           sem alteracoes segmentares sugestivas         |
+  |                           de etiologia isquemica focal.                 |
+  +--------------------------------------------------------------------------+
+
+  +--------------------------------------------------------------------------+
+  |  Resultado Laboratorial -- Workup Etiologico Completo                    |
+  +--------------------------------------------------------------------------+
+  |                                                                          |
+  |  Troponina I           :  Negativa                                      |
+  |  BNP                   :  1.840 pg/mL         (ELEVADO)                 |
+  |  TSH                   :  Normal                                        |
+  |  Sorologia Chagas      :  Negativa                                      |
+  |  VDRL                  :  Negativo                                      |
+  |  Ferritina             :  Normal                                        |
+  |  Saturacao transferrina:  Normal                                        |
+  |                                                                          |
+  +--------------------------------------------------------------------------+
+
+  +--------------------------------------------------------------------------+
+  | ECG Recente                                                              |
+  +--------------------------------------------------------------------------+
+  |  Ritmo                 :  Sinusal                                       |
+  |  Bloqueio              :  BRE de 3o grau                                |
+  |  Ondas Q patologicas   :  Ausentes                                      |
+  |  Alteracoes de necrose :  Ausentes                                      |
+  +--------------------------------------------------------------------------+
