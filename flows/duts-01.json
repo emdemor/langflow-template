@@ -170,6 +170,7 @@
         "targetHandle": "{œfieldNameœ:œsystem_messageœ,œidœ:œOpenAIModel-46ijoœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
+        "className": "",
         "data": {
           "sourceHandle": {
             "dataType": "OpenAIModel",

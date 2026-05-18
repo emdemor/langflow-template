@@ -1,0 +1,1503 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "JsonValidatorComponent",
+            "id": "CustomComponent-tfAfC",
+            "name": "age",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "age",
+            "id": "Prompt Template-KnL5y",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__CustomComponent-tfAfC{œdataTypeœ:œJsonValidatorComponentœ,œidœ:œCustomComponent-tfAfCœ,œnameœ:œageœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-KnL5y{œfieldNameœ:œageœ,œidœ:œPrompt Template-KnL5yœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "CustomComponent-tfAfC",
+        "sourceHandle": "{œdataTypeœ:œJsonValidatorComponentœ,œidœ:œCustomComponent-tfAfCœ,œnameœ:œageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-KnL5y",
+        "targetHandle": "{œfieldNameœ:œageœ,œidœ:œPrompt Template-KnL5yœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "JsonValidatorComponent",
+            "id": "CustomComponent-tfAfC",
+            "name": "name",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "name",
+            "id": "Prompt Template-KnL5y",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__CustomComponent-tfAfC{œdataTypeœ:œJsonValidatorComponentœ,œidœ:œCustomComponent-tfAfCœ,œnameœ:œnameœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-KnL5y{œfieldNameœ:œnameœ,œidœ:œPrompt Template-KnL5yœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "CustomComponent-tfAfC",
+        "sourceHandle": "{œdataTypeœ:œJsonValidatorComponentœ,œidœ:œCustomComponent-tfAfCœ,œnameœ:œnameœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-KnL5y",
+        "targetHandle": "{œfieldNameœ:œnameœ,œidœ:œPrompt Template-KnL5yœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "JsonValidatorComponent",
+            "id": "CustomComponent-tfAfC",
+            "name": "email",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "email",
+            "id": "Prompt Template-KnL5y",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__CustomComponent-tfAfC{œdataTypeœ:œJsonValidatorComponentœ,œidœ:œCustomComponent-tfAfCœ,œnameœ:œemailœ,œoutput_typesœ:[œMessageœ]}-Prompt Template-KnL5y{œfieldNameœ:œemailœ,œidœ:œPrompt Template-KnL5yœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "CustomComponent-tfAfC",
+        "sourceHandle": "{œdataTypeœ:œJsonValidatorComponentœ,œidœ:œCustomComponent-tfAfCœ,œnameœ:œemailœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt Template-KnL5y",
+        "targetHandle": "{œfieldNameœ:œemailœ,œidœ:œPrompt Template-KnL5yœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-I73qz",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "json_string",
+            "id": "CustomComponent-tfAfC",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-I73qz{œdataTypeœ:œTextInputœ,œidœ:œTextInput-I73qzœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-tfAfC{œfieldNameœ:œjson_stringœ,œidœ:œCustomComponent-tfAfCœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-I73qz",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-I73qzœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-tfAfC",
+        "targetHandle": "{œfieldNameœ:œjson_stringœ,œidœ:œCustomComponent-tfAfCœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt Template",
+            "id": "Prompt Template-KnL5y",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "TextOutput-RA0Qv",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__Prompt Template-KnL5y{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-KnL5yœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-TextOutput-RA0Qv{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-RA0Qvœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "Prompt Template-KnL5y",
+        "sourceHandle": "{œdataTypeœ:œPrompt Templateœ,œidœ:œPrompt Template-KnL5yœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextOutput-RA0Qv",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-RA0Qvœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "JsonValidatorComponent",
+            "id": "CustomComponent-tfAfC",
+            "name": "success",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_text",
+            "id": "ConditionalRouter-FzPZe",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__CustomComponent-tfAfC{œdataTypeœ:œJsonValidatorComponentœ,œidœ:œCustomComponent-tfAfCœ,œnameœ:œsuccessœ,œoutput_typesœ:[œMessageœ]}-ConditionalRouter-FzPZe{œfieldNameœ:œinput_textœ,œidœ:œConditionalRouter-FzPZeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "CustomComponent-tfAfC",
+        "sourceHandle": "{œdataTypeœ:œJsonValidatorComponentœ,œidœ:œCustomComponent-tfAfCœ,œnameœ:œsuccessœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ConditionalRouter-FzPZe",
+        "targetHandle": "{œfieldNameœ:œinput_textœ,œidœ:œConditionalRouter-FzPZeœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ConditionalRouter",
+            "id": "ConditionalRouter-FzPZe",
+            "name": "true_result",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "TextOutput-NcDZ0",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ConditionalRouter-FzPZe{œdataTypeœ:œConditionalRouterœ,œidœ:œConditionalRouter-FzPZeœ,œnameœ:œtrue_resultœ,œoutput_typesœ:[œMessageœ]}-TextOutput-NcDZ0{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-NcDZ0œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ConditionalRouter-FzPZe",
+        "sourceHandle": "{œdataTypeœ:œConditionalRouterœ,œidœ:œConditionalRouter-FzPZeœ,œnameœ:œtrue_resultœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextOutput-NcDZ0",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-NcDZ0œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ConditionalRouter",
+            "id": "ConditionalRouter-FzPZe",
+            "name": "false_result",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "TextOutput-2R1b4",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ConditionalRouter-FzPZe{œdataTypeœ:œConditionalRouterœ,œidœ:œConditionalRouter-FzPZeœ,œnameœ:œfalse_resultœ,œoutput_typesœ:[œMessageœ]}-TextOutput-2R1b4{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-2R1b4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ConditionalRouter-FzPZe",
+        "sourceHandle": "{œdataTypeœ:œConditionalRouterœ,œidœ:œConditionalRouter-FzPZeœ,œnameœ:œfalse_resultœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "TextOutput-2R1b4",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œTextOutput-2R1b4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "TextInput-I73qz",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get user text inputs.",
+            "display_name": "Text Input",
+            "documentation": "https://docs.langflow.org/text-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "use_global_variable"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "lf_version": "1.9.1",
+            "metadata": {
+              "code_hash": "518f16485886",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": "0.4.1"
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "custom_components.text_input"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "text_response",
+                "name": "text",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom lfx.base.io.text import TextComponent\nfrom lfx.io import BoolInput, MultilineInput, Output\nfrom lfx.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get user text inputs.\"\n    documentation: str = \"https://docs.langflow.org/text-input-and-output\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n        BoolInput(\n            name=\"use_global_variable\",\n            display_name=\"Use Global Variable\",\n            info=\"Enable to select from global variables (shows globe icon). Disables multiline editing.\",\n            value=False,\n            advanced=True,\n            real_time_refresh=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None) -> dict:\n        if field_name == \"use_global_variable\":\n            if field_value:\n                # Enable global variable mode: single-line with password masking and globe dropdown\n                build_config[\"input_value\"][\"multiline\"] = False\n                build_config[\"input_value\"][\"password\"] = True\n            else:\n                # Default mode: multiline text editing\n                build_config[\"input_value\"][\"multiline\"] = True\n                build_config[\"input_value\"][\"password\"] = False\n        return build_config\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "{\"name\": \"Asna\", \"age\": 30, \"email\": \"ana@exemplo.com\"}"
+              },
+              "use_global_variable": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Use Global Variable",
+                "dynamic": false,
+                "info": "Enable to select from global variables (shows globe icon). Disables multiline editing.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_global_variable",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-I73qz",
+        "measured": {
+          "height": 207,
+          "width": 320
+        },
+        "position": {
+          "x": 184.81283688457188,
+          "y": 33.081860496964936
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextOutput-RA0Qv",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Sends text output via API.",
+            "display_name": "Text Output",
+            "documentation": "https://docs.langflow.org/text-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "lf_version": "1.9.1",
+            "metadata": {
+              "code_hash": "6aba888f4632",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.text_output.TextOutputComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.io.text import TextComponent\nfrom lfx.io import MultilineInput, Output\nfrom lfx.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/text-input-and-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Text to be passed as output.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextOutput"
+        },
+        "dragging": false,
+        "id": "TextOutput-RA0Qv",
+        "measured": {
+          "height": 207,
+          "width": 320
+        },
+        "position": {
+          "x": 1613.013623282664,
+          "y": 104.27512357980046
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-tfAfC",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Recebe uma string JSON, faz parse com json.loads e valida o schema com um BaseModel Pydantic. Retorna os dados validados ou uma mensagem de erro estruturada.",
+            "display_name": "JSON Validator",
+            "documentation": "https://docs.langflow.org/components-custom-components",
+            "edited": true,
+            "field_order": [
+              "json_string"
+            ],
+            "frozen": false,
+            "icon": "shield-check",
+            "legacy": false,
+            "lf_version": "1.9.1",
+            "metadata": {
+              "code_hash": "97557751549c",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "pydantic",
+                    "version": "2.12.5"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.4.1"
+                  }
+                ],
+                "total_dependencies": 2
+              },
+              "module": "custom_components.json_validator"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "age",
+                "group_outputs": true,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_age",
+                "name": "age",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "email",
+                "group_outputs": true,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_email",
+                "name": "email",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "name",
+                "group_outputs": true,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_name",
+                "name": "name",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "success",
+                "group_outputs": true,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_success",
+                "name": "success",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import json\nimport traceback\nfrom enum import Enum\nfrom typing import Any\nfrom pydantic import BaseModel, ValidationError, field_validator\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.io import MessageTextInput, Output\nfrom lfx.schema.message import Message\n\n\n# ── Defina aqui o schema esperado ──────────────────────────────────────────────\nclass PayloadModel(BaseModel):\n    \"\"\"Ajuste os campos conforme o contrato do seu JSON.\"\"\"\n    name: str\n    age: int\n    email: str\n    @field_validator(\"age\")\n    @classmethod\n    def age_must_be_positive(cls, v: int) -> int:\n        if v <= 0:\n            raise ValueError(\"age deve ser um inteiro positivo\")\n        return v\n    @field_validator(\"email\")\n    @classmethod\n    def email_must_have_at(cls, v: str) -> str:\n        if \"@\" not in v:\n            raise ValueError(\"email inválido: deve conter '@'\")\n        return v.lower().strip()\n\n\nclass ValidationOutput(BaseModel):\n    success: bool\n    data: PayloadModel | None = None\n    error: str | None = None\n    traceback: str | None = None\n    \n\n# ── Componente ─────────────────────────────────────────────────────────────────\nclass CustomComponent(Component):\n    display_name = \"JSON Validator\"\n    description = (\n        \"Recebe uma string JSON, faz parse com json.loads e valida \"\n        \"o schema com um BaseModel Pydantic. Retorna os dados validados \"\n        \"ou uma mensagem de erro estruturada.\"\n    )\n    documentation: str = \"https://docs.langflow.org/components-custom-components\"\n    icon = \"shield-check\"\n    name = \"JsonValidatorComponent\"\n    inputs = [\n        MessageTextInput(\n            name=\"json_string\",\n            display_name=\"JSON String\",\n            info='Cole aqui o JSON a ser validado.',\n            # value='{\"name\": \"Ana\", \"age\": 30, \"email\": \"ana@exemplo.com\"}',\n            tool_mode=True,\n        ),\n    ]\n    outputs = [\n        # Output(display_name=\"Payload\", name=\"payload\", method=\"build_output\", group_outputs=True),\n        Output(display_name=\"age\", name=\"age\", method=\"build_age\", group_outputs=True),\n        Output(display_name=\"email\", name=\"email\", method=\"build_email\", group_outputs=True),\n        Output(display_name=\"name\", name=\"name\", method=\"build_name\", group_outputs=True),\n        Output(display_name=\"success\", name=\"success\", method=\"build_success\", group_outputs=True),\n    ]\n\n    _cache: ValidationOutput | None = None\n    \n    def set_attributes(self, parameters: dict) -> None:\n        super().set_attributes(parameters)\n        self._cache = None\n\n\n    def validate_json(self) -> ValidationOutput:\n        if self._cache is not None:\n            return self._cache\n    \n        raw: str = self.json_string\n        try:\n            parsed: Any = json.loads(raw)\n        except json.JSONDecodeError as exc:\n            self._cache = ValidationOutput(\n                success=False,\n                error=f\"{exc.__class__.__name__}: {exc}\",\n                traceback=traceback.format_exc()\n            )\n            self.status = self._cache\n            return self._cache\n    \n        try:\n            model = PayloadModel(**parsed)\n        except ValidationError as exc:\n            self._cache = ValidationOutput(\n                success=False,\n                error=str(exc.errors()),\n                traceback=traceback.format_exc()\n            )\n            self.status = self._cache\n            return self._cache\n    \n        self._cache = ValidationOutput(success=True, data=model)\n        self.status = self._cache\n        return self._cache\n\n    # def build_output(self) -> Message:\n    #     json_validation = self.validate_json()\n    #     return Message(text=json_validation.model_dump_json())\n\n    def build_age(self) -> Message:\n        payload = self.validate_json()\n        if payload.success:\n            return Message(text=str(payload.data.age))\n        return Message(text=\"\")\n\n    def build_name(self) -> Message:\n        payload = self.validate_json()\n        if payload.success:\n            return Message(text=str(payload.data.name))\n        return Message(text=\"\")\n\n    def build_email(self) -> Message:\n        payload = self.validate_json()\n        if payload.success:\n            return Message(text=str(payload.data.email))\n        return Message(text=\"\")\n\n    def build_success(self) -> Message:\n        result = self.validate_json()\n        return Message(text=\"true\" if result.success else \"false\")\n"
+              },
+              "json_string": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "JSON String",
+                "dynamic": false,
+                "info": "Cole aqui o JSON a ser validado.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "json_string",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "payload",
+          "showNode": true,
+          "type": "JsonValidatorComponent"
+        },
+        "dragging": false,
+        "id": "CustomComponent-tfAfC",
+        "measured": {
+          "height": 387,
+          "width": 320
+        },
+        "position": {
+          "x": 563.1941350851673,
+          "y": 26.56628954657964
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Prompt Template-KnL5y",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {
+              "template": [
+                "name",
+                "age",
+                "email"
+              ]
+            },
+            "description": "Create a prompt template with dynamic variables.",
+            "display_name": "Message Template",
+            "documentation": "https://docs.langflow.org/components-prompts",
+            "edited": true,
+            "error": null,
+            "field_order": [
+              "template",
+              "use_double_brackets",
+              "tool_placeholder"
+            ],
+            "frozen": false,
+            "full_path": null,
+            "icon": "prompts",
+            "is_composition": null,
+            "is_input": null,
+            "is_output": null,
+            "legacy": false,
+            "lf_version": "1.9.1",
+            "metadata": {
+              "code_hash": "ae6599675459",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": "0.4.1"
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "custom_components.message_template"
+            },
+            "minimized": false,
+            "name": "",
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Prompt",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "build_prompt",
+                "name": "prompt",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": null,
+            "replacement": null,
+            "template": {
+              "_type": "Component",
+              "age": {
+                "advanced": false,
+                "display_name": "age",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "age",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom lfx.base.prompts.api_utils import process_prompt_template\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.inputs.input_mixin import FieldTypes\nfrom lfx.inputs.inputs import DefaultPromptField\nfrom lfx.io import BoolInput, MessageTextInput, Output, PromptInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.template.utils import update_template_values\nfrom lfx.utils.mustache_security import validate_mustache_template\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Message Template\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    documentation: str = \"https://docs.langflow.org/components-prompts\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt Template\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        BoolInput(\n            name=\"use_double_brackets\",\n            display_name=\"Use Double Brackets\",\n            value=False,\n            advanced=True,\n            info=\"Use {{variable}} syntax instead of {variable}.\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            show=False,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None) -> dotdict:\n        \"\"\"Update the template field type based on the selected mode.\"\"\"\n        if field_name == \"use_double_brackets\":\n            # Change the template field type based on mode\n            is_mustache = field_value is True\n            if is_mustache:\n                build_config[\"template\"][\"type\"] = FieldTypes.MUSTACHE_PROMPT.value\n            else:\n                build_config[\"template\"][\"type\"] = FieldTypes.PROMPT.value\n\n            # Re-process the template to update variables when mode changes\n            template_value = build_config.get(\"template\", {}).get(\"value\", \"\")\n            if template_value:\n                # Ensure custom_fields is properly initialized\n                if \"custom_fields\" not in build_config:\n                    build_config[\"custom_fields\"] = {}\n\n                # Clean up fields from the OLD mode before processing with NEW mode\n                # This ensures we don't keep fields with wrong syntax even if validation fails\n                old_custom_fields = build_config[\"custom_fields\"].get(\"template\", [])\n                for old_field in list(old_custom_fields):\n                    # Remove the field from custom_fields and template\n                    if old_field in old_custom_fields:\n                        old_custom_fields.remove(old_field)\n                    build_config.pop(old_field, None)\n\n                # Try to process template with new mode to add new variables\n                # If validation fails, at least we cleaned up old fields\n                try:\n                    # Validate mustache templates for security\n                    if is_mustache:\n                        validate_mustache_template(template_value)\n\n                    # Re-process template with new mode to add new variables\n                    _ = process_prompt_template(\n                        template=template_value,\n                        name=\"template\",\n                        custom_fields=build_config[\"custom_fields\"],\n                        frontend_node_template=build_config,\n                        is_mustache=is_mustache,\n                    )\n                except ValueError as e:\n                    # If validation fails, we still updated the mode and cleaned old fields\n                    # User will see error when they try to save\n                    logger.debug(f\"Template validation failed during mode switch: {e}\")\n        return build_config\n\n    async def build_prompt(self) -> Message:\n        use_double_brackets = self.use_double_brackets if hasattr(self, \"use_double_brackets\") else False\n        template_format = \"mustache\" if use_double_brackets else \"f-string\"\n        prompt = await Message.from_template_and_variables(template_format=template_format, **self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(prompt_template)\n\n            custom_fields = frontend_node[\"custom_fields\"]\n            frontend_node_template = frontend_node[\"template\"]\n            _ = process_prompt_template(\n                template=prompt_template,\n                name=\"template\",\n                custom_fields=custom_fields,\n                frontend_node_template=frontend_node_template,\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be created\n            logger.debug(f\"Template validation failed in _update_template: {e}\")\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        use_double_brackets = frontend_node[\"template\"].get(\"use_double_brackets\", {}).get(\"value\", False)\n        is_mustache = use_double_brackets is True\n\n        try:\n            # Validate mustache templates for security\n            if is_mustache:\n                validate_mustache_template(template)\n\n            # Kept it duplicated for backwards compatibility\n            _ = process_prompt_template(\n                template=template,\n                name=\"template\",\n                custom_fields=frontend_node[\"custom_fields\"],\n                frontend_node_template=frontend_node[\"template\"],\n                is_mustache=is_mustache,\n            )\n        except ValueError as e:\n            # If validation fails, don't add variables but allow component to be updated\n            logger.debug(f\"Template validation failed in update_frontend_node: {e}\")\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+              },
+              "email": {
+                "advanced": false,
+                "display_name": "email",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "email",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "name": {
+                "advanced": false,
+                "display_name": "name",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "template": {
+                "_input_type": "PromptInput",
+                "advanced": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "prompt",
+                "value": "Meu nome é {name}, tenho {age} anos e meu email é {email}"
+              },
+              "tool_placeholder": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Tool Placeholder",
+                "dynamic": false,
+                "info": "A placeholder input for tool mode.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tool_placeholder",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "use_double_brackets": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Use Double Brackets",
+                "dynamic": false,
+                "info": "Use {{variable}} syntax instead of {variable}.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_double_brackets",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Prompt Template"
+        },
+        "dragging": false,
+        "id": "Prompt Template-KnL5y",
+        "measured": {
+          "height": 475,
+          "width": 320
+        },
+        "position": {
+          "x": 1100.2221545651585,
+          "y": -220.32921394832758
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ConditionalRouter-FzPZe",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Routes an input message to a corresponding output based on text comparison.",
+            "display_name": "If-Else",
+            "documentation": "https://docs.langflow.org/if-else",
+            "edited": true,
+            "field_order": [
+              "input_text",
+              "operator",
+              "match_text",
+              "true_text",
+              "false_text",
+              "case_sensitive",
+              "max_iterations",
+              "default_route"
+            ],
+            "frozen": false,
+            "icon": "split",
+            "legacy": false,
+            "lf_version": "1.9.1",
+            "metadata": {
+              "code_hash": "9b838e4015d7",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": "0.4.1"
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "custom_components.ifelse"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "True",
+                "group_outputs": true,
+                "hidden": null,
+                "loop_types": null,
+                "method": "true_response",
+                "name": "true_result",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "False",
+                "group_outputs": true,
+                "hidden": null,
+                "loop_types": null,
+                "method": "false_response",
+                "name": "false_result",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "case_sensitive": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Case Sensitive",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "case_sensitive",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import re\n\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.io import BoolInput, DropdownInput, IntInput, MessageTextInput, Output\nfrom lfx.schema.message import Message\n\n\nclass ConditionalRouterComponent(Component):\n    display_name = \"If-Else\"\n    description = \"Routes an input message to a corresponding output based on text comparison.\"\n    documentation: str = \"https://docs.langflow.org/if-else\"\n    icon = \"split\"\n    name = \"ConditionalRouter\"\n\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.__iteration_updated = False\n\n    inputs = [\n        MessageTextInput(\n            name=\"input_text\",\n            display_name=\"Text Input\",\n            info=\"The primary text input for the operation.\",\n            required=True,\n        ),\n        DropdownInput(\n            name=\"operator\",\n            display_name=\"Operator\",\n            options=[\n                \"equals\", \"not equals\", \"contains\",\n                \"starts with\", \"ends with\", \"regex\",\n                \"less than\", \"less than or equal\",\n                \"greater than\", \"greater than or equal\",\n            ],\n            value=\"equals\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"match_text\",\n            display_name=\"Match Text\",\n            info=\"The text to compare against.\",\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"true_text\",\n            display_name=\"Text if True\",\n            info=\"The text to output when the condition is True.\",\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"false_text\",\n            display_name=\"Text if False\",\n            info=\"The text to output when the condition is False.\",\n            required=True,\n        ),\n        BoolInput(\n            name=\"case_sensitive\",\n            display_name=\"Case Sensitive\",\n            value=True,\n            advanced=True,\n        ),\n        IntInput(\n            name=\"max_iterations\",\n            display_name=\"Max Iterations\",\n            value=10,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"default_route\",\n            display_name=\"Default Route\",\n            options=[\"true_result\", \"false_result\"],\n            value=\"false_result\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"True\", name=\"true_result\", method=\"true_response\", group_outputs=True),\n        Output(display_name=\"False\", name=\"false_result\", method=\"false_response\", group_outputs=True),\n    ]\n\n    def _pre_run_setup(self):\n        self.__iteration_updated = False\n\n    def evaluate_condition(self, input_text: str, match_text: str, operator: str, *, case_sensitive: bool) -> bool:\n        if not case_sensitive and operator != \"regex\":\n            input_text = input_text.lower()\n            match_text = match_text.lower()\n\n        if operator == \"equals\":\n            return input_text == match_text\n        if operator == \"not equals\":\n            return input_text != match_text\n        if operator == \"contains\":\n            return match_text in input_text\n        if operator == \"starts with\":\n            return input_text.startswith(match_text)\n        if operator == \"ends with\":\n            return input_text.endswith(match_text)\n        if operator == \"regex\":\n            try:\n                return bool(re.match(match_text, input_text))\n            except re.error:\n                return False\n        if operator in [\"less than\", \"less than or equal\", \"greater than\", \"greater than or equal\"]:\n            try:\n                input_num = float(input_text)\n                match_num = float(match_text)\n                if operator == \"less than\":\n                    return input_num < match_num\n                if operator == \"less than or equal\":\n                    return input_num <= match_num\n                if operator == \"greater than\":\n                    return input_num > match_num\n                if operator == \"greater than or equal\":\n                    return input_num >= match_num\n            except ValueError:\n                return False\n        return False\n\n    def iterate_and_stop_once(self, route_to_stop: str):\n        if not self.__iteration_updated:\n            self.update_ctx({f\"{self._id}_iteration\": self.ctx.get(f\"{self._id}_iteration\", 0) + 1})\n            self.__iteration_updated = True\n            current_iteration = self.ctx.get(f\"{self._id}_iteration\", 0)\n\n            if current_iteration >= self.max_iterations and route_to_stop == self.default_route:\n                if self._id in self.graph.conditional_exclusion_sources:\n                    previous_exclusions = self.graph.conditional_exclusion_sources[self._id]\n                    self.graph.conditionally_excluded_vertices -= previous_exclusions\n                    del self.graph.conditional_exclusion_sources[self._id]\n                route_to_stop = \"true_result\" if route_to_stop == \"false_result\" else \"false_result\"\n                self.stop(route_to_stop)\n                return\n\n            self.stop(route_to_stop)\n            self.graph.exclude_branch_conditionally(self._id, output_name=route_to_stop)\n\n    def true_response(self) -> Message:\n        result = self.evaluate_condition(\n            self.input_text, self.match_text, self.operator, case_sensitive=self.case_sensitive\n        )\n        current_iteration = self.ctx.get(f\"{self._id}_iteration\", 0)\n        force_output = current_iteration >= self.max_iterations and self.default_route == \"true_result\"\n\n        if result or force_output:\n            output = Message(text=self.true_text)\n            self.status = output\n            if not force_output:\n                self.iterate_and_stop_once(\"false_result\")\n            return output\n\n        self.iterate_and_stop_once(\"true_result\")\n        return Message(text=self.true_text)\n\n    def false_response(self) -> Message:\n        result = self.evaluate_condition(\n            self.input_text, self.match_text, self.operator, case_sensitive=self.case_sensitive\n        )\n        current_iteration = self.ctx.get(f\"{self._id}_iteration\", 0)\n        force_output = current_iteration >= self.max_iterations and self.default_route == \"false_result\"\n\n        if not result or force_output:\n            output = Message(text=self.false_text)\n            self.status = output\n            if not force_output:\n                self.iterate_and_stop_once(\"true_result\")\n            return output\n\n        self.iterate_and_stop_once(\"false_result\")\n        return Message(text=self.false_text)\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None) -> dict:\n        if field_name == \"operator\":\n            if field_value == \"regex\":\n                build_config.pop(\"case_sensitive\", None)\n            elif \"case_sensitive\" not in build_config:\n                case_sensitive_input = next(\n                    (f for f in self.inputs if f.name == \"case_sensitive\"), None\n                )\n                if case_sensitive_input:\n                    build_config[\"case_sensitive\"] = case_sensitive_input.to_dict()\n        return build_config\n"
+              },
+              "default_route": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Default Route",
+                "dynamic": false,
+                "external_options": {},
+                "info": "",
+                "name": "default_route",
+                "options": [
+                  "true_result",
+                  "false_result"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "false_result"
+              },
+              "false_text": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Text if False",
+                "dynamic": false,
+                "info": "The text to output when the condition is False.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "false_text",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "False"
+              },
+              "input_text": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Text Input",
+                "dynamic": false,
+                "info": "The primary text input for the operation.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_text",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "match_text": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Match Text",
+                "dynamic": false,
+                "info": "The text to compare against.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "match_text",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "true"
+              },
+              "max_iterations": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Iterations",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_iterations",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 10
+              },
+              "operator": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Operator",
+                "dynamic": false,
+                "external_options": {},
+                "info": "",
+                "name": "operator",
+                "options": [
+                  "equals",
+                  "not equals",
+                  "contains",
+                  "starts with",
+                  "ends with",
+                  "regex",
+                  "less than",
+                  "less than or equal",
+                  "greater than",
+                  "greater than or equal"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "equals"
+              },
+              "true_text": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Text if True",
+                "dynamic": false,
+                "info": "The text to output when the condition is True.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "true_text",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "verdadeassad"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ConditionalRouter"
+        },
+        "dragging": false,
+        "id": "ConditionalRouter-FzPZe",
+        "measured": {
+          "height": 595,
+          "width": 320
+        },
+        "position": {
+          "x": 1098.0630226896642,
+          "y": 333.0023552503975
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextOutput-NcDZ0",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Sends text output via API.",
+            "display_name": "Text Output",
+            "documentation": "https://docs.langflow.org/text-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "lf_version": "1.9.1",
+            "metadata": {
+              "code_hash": "6aba888f4632",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.text_output.TextOutputComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.io.text import TextComponent\nfrom lfx.io import MultilineInput, Output\nfrom lfx.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/text-input-and-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Text to be passed as output.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextOutput"
+        },
+        "dragging": false,
+        "id": "TextOutput-NcDZ0",
+        "measured": {
+          "height": 207,
+          "width": 320
+        },
+        "position": {
+          "x": 1584.227905043271,
+          "y": 420.98914650643087
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextOutput-2R1b4",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Sends text output via API.",
+            "display_name": "Text Output",
+            "documentation": "https://docs.langflow.org/text-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "lf_version": "1.9.1",
+            "metadata": {
+              "code_hash": "6aba888f4632",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.text_output.TextOutputComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Text",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.io.text import TextComponent\nfrom lfx.io import MultilineInput, Output\nfrom lfx.schema.message import Message\n\n\nclass TextOutputComponent(TextComponent):\n    display_name = \"Text Output\"\n    description = \"Sends text output via API.\"\n    documentation: str = \"https://docs.langflow.org/text-input-and-output\"\n    icon = \"type\"\n    name = \"TextOutput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Text to be passed as output.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Output Text\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        message = Message(\n            text=self.input_value,\n        )\n        self.status = self.input_value\n        return message\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Text to be passed as output.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextOutput"
+        },
+        "dragging": false,
+        "id": "TextOutput-2R1b4",
+        "measured": {
+          "height": 207,
+          "width": 320
+        },
+        "position": {
+          "x": 1590.5929374081254,
+          "y": 716.9631514721526
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": -222.60517206021586,
+      "y": 228.04309598247337,
+      "zoom": 0.5872925629152413
+    }
+  },
+  "description": "Sculpting Language with Precision.",
+  "endpoint_name": null,
+  "id": "bd855b64-d4a7-4440-8ef3-f5a6f715db62",
+  "is_component": false,
+  "last_tested_version": "1.9.1",
+  "locked": false,
+  "name": "json-parser",
+  "tags": []
+}
